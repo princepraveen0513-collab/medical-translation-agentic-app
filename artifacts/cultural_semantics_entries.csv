@@ -1,0 +1,1315 @@
+id,text,source,language_pair,category,severity_hint,risk_flag
+CS001,"सीने में जलन है (seene mein jalan hai)
+Literal: There is burning in the chest
+Meaning: Often refers to heartburn/acidity (GERD/dyspepsia); must distinguish from cardiac chest pain.
+Cultural context: Commonly used for acid reflux after oily/spicy food; not necessarily cardiac.
+Synonyms/variants: सीना जल रहा है, छाती में जलन, heartburn, acidity
+Disambiguation questions: क्या दर्द चलने/मेहनत करने पर बढ़ता है? | क्या दर्द बाएं हाथ या गर्दन तक जाता है? | खाना खाने के बाद या लेटने पर बढ़ता है? | डकार या एंटासिड से राहत मिलती है?",cultural_semantics,hi-en,Gastrointestinal vs Cardiac,mild_to_moderate,True
+CS002,"पेट में आग लगी है (pet mein aag lagi hai)
+Literal: There is fire in the stomach
+Meaning: Severe acidity/epigastric burning; consider gastritis/ulcer if chronic or with alarm features.
+Cultural context: Hyperbolic phrase for intense burning due to acidity.
+Synonyms/variants: पेट में जलन, खट्टी डकारें, gas
+Disambiguation questions: क्या मल काला है या खून आ रहा है? | क्या दर्द खाली पेट अधिक होता है? | क्या दर्द एंटासिड से कम होता है? | NSAIDs/शराब का प्रयोग?",cultural_semantics,hi-en,Gastrointestinal,moderate,True
+CS003,"मेरे वो दिन चल रहे हैं (mere woh din chal rahe hain)
+Literal: Those days are going on
+Meaning: Menstruation/period is ongoing.
+Cultural context: Euphemism to refer to menstruation politely.
+Synonyms/variants: पीरियड्स चल रहे हैं, मासिक धर्म चल रहा है
+Disambiguation questions: दर्द कितना है (1–10)? | खून का बहाव सामान्य से अधिक है? | कितने दिन हो गए? | गर्भावस्था की कोई संभावना?",cultural_semantics,hi-en,Reproductive Health,varies,False
+CS004,"उन दिनों में नेगेटिव विचार ज़्यादा आते हैं (unn dino mein negative vichaar zyada aate hain)
+Literal: During those days, negative thoughts come more
+Meaning: Mood changes around menstruation; consider PMS/PMDD if functional impairment.
+Cultural context: Associates mood swings with menstrual phase; stigma may reduce explicit disclosure.
+Synonyms/variants: पीरियड के आसपास मूड स्विंग्स, चिड़चिड़ापन
+Disambiguation questions: क्या ये लक्षण हर चक्र में होते हैं? | क्या काम/पढ़ाई प्रभावित होती है? | नींद और भूख पर असर? | कभी स्वयं को चोट पहुँचाने का विचार?",cultural_semantics,hi-en,Reproductive Health / Mental Health,mild_to_moderate,True
+CS005,"पेशाब में जलन होती है (peshab mein jalan hoti hai)
+Literal: There is burning in urination
+Meaning: Dysuria suggesting UTI; consider STI, vaginitis, prostatitis based on context.
+Cultural context: Often attributed to ‘heat’ (गर्मी) or dehydration.
+Synonyms/variants: पेशाब में दर्द, मूत्र में जलन
+Disambiguation questions: क्या बुखार या कमर के तरफ दर्द है? | खून दिखा? | गर्भावस्था की संभावना? | पहले भी ऐसा हुआ है?",cultural_semantics,hi-en,Genitourinary,mild_to_moderate,True
+CS006,"गर्मी चढ़ गई है (garmi chadh gayi hai)
+Literal: Heat has risen
+Meaning: May refer to fever, heat exhaustion, or general malaise from hot weather/spicy food.
+Cultural context: ‘Heat’ is a common explanatory model; not specific clinically.
+Synonyms/variants: बॉडी गर्म लग रही है, हॉट फील
+Disambiguation questions: क्या बुखार नापा है (थर्मामीटर)? | धूप में ज्यादा समय रहे? | सिर दर्द, उल्टी, चक्कर? | पानी कम पिया?",cultural_semantics,hi-en,General / Infectious / Environmental,varies,True
+CS007,"दिल भारी लगता है (dil bhaari lagta hai)
+Literal: The heart feels heavy
+Meaning: Sadness/low mood; sometimes chest heaviness metaphor—assess for depression vs cardiac if physical symptoms.
+Cultural context: Metaphor for grief/sadness; may be mistaken as physical pain.
+Synonyms/variants: मन भारी है, दिल उदास है
+Disambiguation questions: ये भावनात्मक उदासी है या शारीरिक दर्द? | कभी स्वयं को चोट पहुँचाने का विचार? | सीढ़ियाँ चढ़ने पर दर्द/घुटन?",cultural_semantics,hi-en,Mental Health vs Cardiac,mild_to_moderate,True
+CS008,"सांस फूलती है (saans phoolti hai)
+Literal: Breath gets puffed
+Meaning: Shortness of breath; consider asthma, COPD, anemia, heart failure, anxiety, deconditioning.
+Cultural context: Common phrase for dyspnea on exertion or anxiety.
+Synonyms/variants: घुटन, सांस चढ़ना
+Disambiguation questions: सीटी जैसी सांस (wheezing) होती है? | लेटने पर बढ़ती है? | कितनी दूरी पर सांस फूलती है? | सीने में दर्द के साथ है?",cultural_semantics,hi-en,Respiratory / Cardiac,moderate,True
+CS009,"चक्कर आ रहा है (chakkar aa raha hai)
+Literal: Dizziness is coming
+Meaning: Non-specific dizziness; can mean vertigo, lightheadedness, presyncope.
+Cultural context: Used broadly; needs precise characterization.
+Synonyms/variants: सर घूम रहा है, हल्का-हल्का लग रहा है
+Disambiguation questions: क्या कमज़ोरी/बेहोशी जैसा लगता है या कमरे के घूमने जैसा? | उठते ही होता है? | कान में आवाज़/सुनाई कम? | खून की कमी/शुगर की समस्या?",cultural_semantics,hi-en,Neurology / General,mild_to_moderate,True
+CS010,"कमज़ोरी लग रही है (kamzori lag rahi hai)
+Literal: Feeling weakness
+Meaning: Generalized fatigue/weakness; could be anemia, hypothyroid, infection, depression.
+Cultural context: Common catch-all for tiredness; often nutritional.
+Synonyms/variants: थकान, दम नहीं है
+Disambiguation questions: कब से कमज़ोरी है? | वजन कम हुआ? | खून की कमी/थायरॉइड की जाँच हुई? | नींद कैसी है?",cultural_semantics,hi-en,General / Endocrine / Mental Health,mild_to_moderate,False
+CS011,"खून की कमी है (khoon ki kami hai)
+Literal: There is a lack of blood
+Meaning: Anemia (self-reported or suspected).
+Cultural context: Lay term for anemia; often nutritional (iron/B12).
+Synonyms/variants: ब्लड कम है, हीमोग्लोबिन कम
+Disambiguation questions: हाल की जाँच में Hb कितना था? | भूख/डाइट कैसी है? | महिलाओं में मासिक धर्म का बहाव ज्यादा? | कभी बेहोशी/धड़कन तेज़?",cultural_semantics,hi-en,Hematology,varies,False
+CS012,"शुगर है (sugar hai)
+Literal: There is sugar
+Meaning: Diabetes mellitus (self-reported).
+Cultural context: ‘Sugar’ commonly used for diabetes.
+Synonyms/variants: डायबिटीज़, मधुमेह
+Disambiguation questions: सुगर कंट्रोल के लिए कौनसी दवा? | शुगर का आखिरी रीडिंग/HbA1c? | लो शुगर के लक्षण हुए?",cultural_semantics,hi-en,Endocrine,chronic,False
+CS013,"बीपी बढ़ा हुआ है (BP badha hua hai)
+Literal: BP is elevated
+Meaning: Hypertension or transient high blood pressure.
+Cultural context: Self-reported from kiosk/home devices; may be situational.
+Synonyms/variants: ब्लड प्रेशर हाई है
+Disambiguation questions: रीडिंग कितनी आई थी? | दवा नियमित ले रहे हैं? | सिर दर्द/धुंधला दिखना?",cultural_semantics,hi-en,Cardiovascular,varies,True
+CS014,"गला बैठ गया है (gala baith gaya hai)
+Literal: The throat has sat down
+Meaning: Hoarseness/laryngitis; usually viral/overuse; consider GERD/allergy if chronic.
+Cultural context: Common idiom for hoarse voice.
+Synonyms/variants: आवाज़ बैठ गई है
+Disambiguation questions: कितने दिन से? | खांसी/जुकाम साथ में? | धूम्रपान का इतिहास? | अम्लपित्त/GERD के लक्षण?",cultural_semantics,hi-en,ENT,mild,False
+CS015,"जोड़ों में दर्द (jodon mein dard)
+Literal: Pain in the joints
+Meaning: Arthralgia; consider OA, RA, viral arthritis, vitamin D deficiency.
+Cultural context: Often attributed to ‘गठिया’ broadly.
+Synonyms/variants: गठिया का दर्द
+Disambiguation questions: सुबह जकड़न कितनी देर रहती है? | सूजन/लालिमा? | हाल में वायरल बुखार?",cultural_semantics,hi-en,Musculoskeletal,mild_to_moderate,False
+CS016,"गैस हो रही है (gas ho rahi hai)
+Literal: There is gas
+Meaning: Bloating/belching/flatulence/epigastric discomfort; common lay label for upper GI symptoms.
+Cultural context: Used broadly for abdominal discomfort.
+Synonyms/variants: एसिडिटी, अपच
+Disambiguation questions: फुलाव, डकार या जलन में से क्या प्रमुख है? | कब से है? | वज़न घटा है? | एंटासिड से राहत?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS017,"उल्टी जैसा लग रहा है (ulti jaisa lag raha hai)
+Literal: Feels like vomiting
+Meaning: Nausea; check pregnancy possibility, gastritis, infection, migraine.
+Cultural context: Often linked to ‘gas’ or ‘heat’.
+Synonyms/variants: मतली, जी मिचलाना
+Disambiguation questions: कितनी बार उल्टी हुई? | गर्भावस्था की संभावना? | बुखार/दस्त साथ में? | पानी पी पा रहे हैं?",cultural_semantics,hi-en,Gastrointestinal / Pregnancy,mild_to_moderate,True
+CS018,"दिल धड़क रहा है (dil dhadak raha hai)
+Literal: The heart is beating
+Meaning: Palpitations; may be anxiety, arrhythmia, hyperthyroid, anemia, caffeine.
+Cultural context: Used for awareness of heartbeat especially during stress.
+Synonyms/variants: धक-धक हो रही है, धड़कन तेज़
+Disambiguation questions: एपिसोड कितनी देर रहते हैं? | बेहोशी/ब्लैकआउट? | कैफीन/थायरॉइड/एनीमिया का इतिहास?",cultural_semantics,hi-en,Cardiac / Anxiety,mild_to_moderate,True
+CS019,"गर्भ ठहर नहीं रहा (garbh thahar nahin raha)
+Literal: Pregnancy is not staying
+Meaning: Recurrent early pregnancy loss or difficulty maintaining pregnancy.
+Cultural context: Sensitive topic; may imply prior miscarriages.
+Synonyms/variants: बार-बार गर्भपात, गर्भ टिक नहीं रहा
+Disambiguation questions: कितनी बार ऐसा हुआ? | कितने सप्ताह पर गर्भपात हुआ? | कोई जाँच/ट्रीटमेंट करवाया?",cultural_semantics,hi-en,Reproductive Health,significant,True
+CS020,"नींद नहीं आती (neend nahi aati)
+Literal: Sleep doesn’t come
+Meaning: Insomnia; could be stress, anxiety, depression, or lifestyle related.
+Cultural context: Common idiom expressing sleeplessness due to worry or stress.
+Synonyms/variants: नींद उड़ गई, रात भर जागा
+Disambiguation questions: कब से नींद नहीं आ रही? | सोने की कोशिश में क्या सोचते रहते हैं? | दवाइयाँ या मोबाइल का उपयोग रात में?",cultural_semantics,hi-en,Mental Health / Sleep,mild_to_moderate,True
+CS021,"मुँह में छाले हो गए हैं (munh mein chhale ho gaye hain)
+Literal: Mouth ulcers have formed
+Meaning: Aphthous ulcers or nutritional deficiency; can relate to stress or acidity.
+Cultural context: Often attributed to ‘body heat’ (गर्मी) or spicy food.
+Synonyms/variants: छाले पड़े हैं, मुंह जल रहा है
+Disambiguation questions: क्या खाना खाते समय जलन होती है? | पहले भी ऐसा हुआ है? | कौनसा टूथपेस्ट या दवा उपयोग कर रहे हैं?",cultural_semantics,hi-en,ENT / Gastrointestinal,mild,False
+CS022,"सर भारी लग रहा है (sar bhaari lag raha hai)
+Literal: Head feels heavy
+Meaning: Could indicate sinusitis, migraine, stress, or hypertension.
+Cultural context: Used broadly for dull headache or stress.
+Synonyms/variants: सिर भारी है, सर चकरा रहा है
+Disambiguation questions: क्या नाक बंद है या जुकाम? | दर्द सिर के किस हिस्से में है? | कितनी देर रहता है?",cultural_semantics,hi-en,Neurology / ENT,mild_to_moderate,False
+CS023,"सिर में दर्द घूमता है (sir mein dard ghoomta hai)
+Literal: Pain moves around in the head
+Meaning: Migrainous or tension-type headache; sometimes sinus-related.
+Cultural context: Used to describe radiating or shifting headache pain.
+Synonyms/variants: घूमने वाला सिरदर्द, कभी इधर कभी उधर दर्द
+Disambiguation questions: दर्द किस हिस्से में ज़्यादा होता है? | क्या उल्टी या रोशनी से परेशानी? | कितनी बार ऐसा होता है?",cultural_semantics,hi-en,Neurology,moderate,True
+CS024,"पेट फूल गया है (pet phool gaya hai)
+Literal: The stomach has bloated
+Meaning: Abdominal distension due to gas, IBS, constipation, or ascites.
+Cultural context: Lay term for bloating; often attributed to ‘gas’.
+Synonyms/variants: पेट में फुलावट, गैस बन गई है
+Disambiguation questions: क्या दर्द या उल्टी है? | खाना खाने के बाद बढ़ता है? | मल नियमित आता है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS025,"कंधा जाम हो गया है (kandha jam ho gaya hai)
+Literal: Shoulder has jammed
+Meaning: Frozen shoulder or adhesive capsulitis; often diabetic or post-injury.
+Cultural context: Colloquial for restricted movement of shoulder.
+Synonyms/variants: कंधा नहीं घूम रहा, हाथ ऊपर नहीं उठता
+Disambiguation questions: कब से जाम है? | क्या चोट लगी थी? | डायबिटीज़ है?",cultural_semantics,hi-en,Musculoskeletal,moderate,False
+CS026,"गले में खराश है (gale mein kharash hai)
+Literal: There is a roughness in the throat
+Meaning: Pharyngitis or throat irritation; viral, allergic, or reflux cause.
+Cultural context: Common seasonal complaint; often mild.
+Synonyms/variants: गला खराब है, गला दुख रहा है
+Disambiguation questions: कितने दिन से है? | खांसी या बुखार है? | गले में सूजन दिखी?",cultural_semantics,hi-en,ENT / Respiratory,mild,False
+CS027,"सांस में घरघराहट है (saans mein ghargharaahat hai)
+Literal: There is wheezing in breath
+Meaning: Asthma, bronchitis, or allergy-related wheeze.
+Cultural context: Used for noisy breathing during exertion or cold.
+Synonyms/variants: सीटी जैसी सांस, घुटन
+Disambiguation questions: कितनी बार सांस फूलती है? | इनहेलर से राहत मिलती है? | कभी रात में बढ़ता है?",cultural_semantics,hi-en,Respiratory,moderate,True
+CS028,"दिल बैठ जाता है (dil baith jaata hai)
+Literal: The heart sinks
+Meaning: Sudden sadness, panic, or emotional shock; could also describe faintness.
+Cultural context: Metaphor for emotional overwhelm or presyncope.
+Synonyms/variants: मन बैठ जाता है, दिल टूट गया
+Disambiguation questions: क्या बेहोशी जैसा लगता है? | कोई तनाव या दुखद घटना? | धड़कन तेज़ होती है?",cultural_semantics,hi-en,Mental Health / Cardiac,mild_to_moderate,True
+CS029,"हाथ-पैर सुन्न हो गए (haath-pair sunn ho gaye)
+Literal: Hands and feet have gone numb
+Meaning: Paresthesia due to neuropathy, anxiety, or vascular issues.
+Cultural context: Common idiom for tingling or numbness.
+Synonyms/variants: सुई चुभने जैसा लगना, झनझनाहट
+Disambiguation questions: कब से ऐसा होता है? | क्या डायबिटीज़ है? | चेहरे पर भी असर?",cultural_semantics,hi-en,Neurology,moderate,True
+CS030,"भूख नहीं लगती (bhookh nahi lagti)
+Literal: Don’t feel hungry
+Meaning: Loss of appetite; may indicate infection, depression, hypothyroidism, or gastritis.
+Cultural context: Common phrase to describe poor appetite or malaise.
+Synonyms/variants: खाने का मन नहीं करता, भूख मर गई
+Disambiguation questions: कब से भूख कम है? | वज़न घटा है? | खाना देखकर घिन या मन नहीं करता?",cultural_semantics,hi-en,General / Gastrointestinal / Mental Health,mild_to_moderate,True
+CS031,"पसीना छूट रहा है (paseena chhoot raha hai)
+Literal: Sweat is breaking out
+Meaning: Could indicate anxiety, hypoglycemia, fever, or cardiac distress.
+Cultural context: Used when sweating excessively during tension or weakness.
+Synonyms/variants: बहुत पसीना आ रहा है, सारा बदन भीग गया
+Disambiguation questions: पसीना कब आता है — मेहनत में या आराम में? | क्या चक्कर या कमजोरी भी होती है? | शुगर की जांच हुई?",cultural_semantics,hi-en,Endocrine / Cardiac / Anxiety,varies,True
+CS032,"आँखों के आगे अंधेरा छा जाता है (aankhon ke aage andhera chha jaata hai)
+Literal: Darkness comes before the eyes
+Meaning: Syncope, dizziness, or hypotension; can also mean emotional shock.
+Cultural context: Describes momentary blackout or faintness.
+Synonyms/variants: बेहोशी जैसा लगता है, दम घुटता है
+Disambiguation questions: कितनी देर के लिए अंधेरा आता है? | कभी बेहोश हुए? | क्या दिल की धड़कन तेज़ हो जाती है?",cultural_semantics,hi-en,Neurology / Cardiovascular,moderate,True
+CS033,"कान बज रहे हैं (kaan baj rahe hain)
+Literal: Ears are ringing
+Meaning: Tinnitus; may be due to infection, hearing loss, or medication side effect.
+Cultural context: Used to describe humming or buzzing in ears.
+Synonyms/variants: कानों में आवाज़, भिनभिनाहट
+Disambiguation questions: कब से बज रहे हैं? | क्या सुनाई कम देता है? | कोई दवा शुरू की थी हाल में?",cultural_semantics,hi-en,ENT / Neurology,mild_to_moderate,False
+CS034,"पेट में मरोड़ है (pet mein marod hai)
+Literal: There is twisting in the stomach
+Meaning: Abdominal cramps; possible infection, dysmenorrhea, or IBS.
+Cultural context: Describes cramp-like abdominal pain; common lay expression.
+Synonyms/variants: पेट में ऐंठन, दर्द उठ रहा है
+Disambiguation questions: कब से दर्द है? | दस्त या उल्टी है? | क्या पीरियड्स के दौरान होता है?",cultural_semantics,hi-en,Gastrointestinal / Reproductive,moderate,True
+CS035,"बदन दर्द हो रहा है (badan dard ho raha hai)
+Literal: Body is aching
+Meaning: Myalgia from viral infection, exertion, or fatigue.
+Cultural context: Used broadly for muscle aches with fever or fatigue.
+Synonyms/variants: सारे बदन में दर्द, कमर टूट रही है
+Disambiguation questions: क्या बुखार भी है? | कितने दिन से दर्द है? | आराम से ठीक होता है?",cultural_semantics,hi-en,General / Infectious,mild_to_moderate,False
+CS036,"सांस रुक-सी जाती है (saans ruk si jaati hai)
+Literal: Breath seems to stop
+Meaning: Sleep apnea, asthma, panic attack, or heart failure.
+Cultural context: Used when waking up gasping or feeling suffocated.
+Synonyms/variants: सांस अटक जाती है, घुटन होती है
+Disambiguation questions: क्या ये नींद में होता है? | खर्राटे आते हैं? | लेटने पर बढ़ता है?",cultural_semantics,hi-en,Respiratory / Sleep,serious,True
+CS037,"दिल में घबराहट होती है (dil mein ghabrahat hoti hai)
+Literal: There is restlessness in the heart
+Meaning: Anxiety, palpitations, or panic episodes; sometimes cardiac ischemia in elders.
+Cultural context: Widely used to describe uneasiness or panic sensations.
+Synonyms/variants: घबराहट लगती है, दिल धकधक करता है
+Disambiguation questions: क्या घबराहट किसी खास समय या जगह पर होती है? | धड़कन तेज़ होती है? | क्या आराम करने से ठीक होती है?",cultural_semantics,hi-en,Mental Health / Cardiac,moderate,True
+CS038,"मुँह कड़वा लग रहा है (munh kadwa lag raha hai)
+Literal: Mouth tastes bitter
+Meaning: Dysgeusia or nausea; may be due to fever, liver issues, or gastritis.
+Cultural context: Common idiom for malaise or poor appetite.
+Synonyms/variants: मुँह खराब है, स्वाद नहीं आ रहा
+Disambiguation questions: कब से मुँह कड़वा लग रहा है? | भूख लगी? | पेशाब या आँखों का रंग बदला?",cultural_semantics,hi-en,Gastrointestinal / Hepatic,mild_to_moderate,True
+CS039,"पैर में झनझनाहट है (pair mein jhanjhanahat hai)
+Literal: There is tingling in the leg
+Meaning: Peripheral neuropathy, vitamin deficiency, or anxiety.
+Cultural context: Frequent complaint among diabetics or B12 deficiency.
+Synonyms/variants: सुई चुभने जैसा, सुन्नपन
+Disambiguation questions: क्या डायबिटीज़ है? | कब से झनझनाहट है? | चलने में दिक्कत?",cultural_semantics,hi-en,Neurology / Endocrine,moderate,True
+CS040,"कमर टूट रही है (kamar toot rahi hai)
+Literal: The back feels like it’s breaking
+Meaning: Severe backache or fatigue; could relate to musculoskeletal strain, menstruation, or viral fever.
+Cultural context: Used for body ache from overwork, fever, or menstruation.
+Synonyms/variants: पीठ दर्द, बदन दर्द
+Disambiguation questions: कब से दर्द है? | क्या पीरियड्स या बुखार के साथ है? | लेटने पर या उठने पर बढ़ता है?",cultural_semantics,hi-en,Musculoskeletal / General,moderate,False
+CS041,"खून पतला है (khoon patla hai)
+Literal: The blood is thin
+Meaning: May refer to anticoagulant use or perceived weakness; not a medical diagnosis unless medication-related.
+Cultural context: Common misbelief; often used when bruising or bleeding occurs easily.
+Synonyms/variants: ब्लड पतला है, ज्यादा ब्लीडिंग होती है
+Disambiguation questions: क्या डॉक्टर ने कोई ब्लड पतला करने की दवा दी? | खून बहने की शिकायत है? | कोई दवा जैसे Ecosprin ले रहे हैं?",cultural_semantics,hi-en,Hematology / Lay Belief,varies,True
+CS042,"पैरों में सूजन है (pairon mein soojan hai)
+Literal: There is swelling in the legs
+Meaning: Pedal edema due to cardiac, renal, hepatic, or nutritional cause.
+Cultural context: Used both medically and non-medically; may relate to prolonged standing.
+Synonyms/variants: टखनों में सूजन, एड़ी फूल गई
+Disambiguation questions: सूजन कब बढ़ती है? | सांस फूलती है? | पेशाब कम हो गया है?",cultural_semantics,hi-en,Cardiac / Renal / Hepatic,moderate,True
+CS043,"दिल बैठ जाता है डर के मारे (dil baith jaata hai dar ke maare)
+Literal: Heart sinks out of fear
+Meaning: Acute anxiety or panic triggered by fear stimulus.
+Cultural context: Common idiom for fear-induced physical sensations.
+Synonyms/variants: जान निकल गई, दम घुट गया
+Disambiguation questions: किस बात से डर लगा? | क्या ऐसा पहले भी हुआ? | दिल की धड़कन तेज़ हो जाती है?",cultural_semantics,hi-en,Mental Health / Anxiety,mild_to_moderate,True
+CS044,"पेशाब बार-बार आता है (peshab baar-baar aata hai)
+Literal: Urine comes frequently
+Meaning: Urinary frequency; consider UTI, diabetes, or prostate issues.
+Cultural context: Lay complaint often linked to ‘sugar’ or cold exposure.
+Synonyms/variants: बार-बार पेशाब लगना, टॉयलेट जाते रहना
+Disambiguation questions: क्या पेशाब में जलन है? | रात में कितनी बार उठते हैं? | शुगर कंट्रोल में है?",cultural_semantics,hi-en,Genitourinary / Endocrine,moderate,True
+CS045,"छाती में भारीपन है (chhati mein bhaaripan hai)
+Literal: There is heaviness in the chest
+Meaning: Could mean cardiac discomfort, anxiety, or respiratory congestion.
+Cultural context: Ambiguous term requiring detailed probing.
+Synonyms/variants: सीने में दबाव, दिल भारी लग रहा
+Disambiguation questions: क्या दर्द मेहनत पर बढ़ता है? | क्या सांस फूलती है? | दर्द कहीं और फैलता है?",cultural_semantics,hi-en,Cardiac / Respiratory / Anxiety,moderate,True
+CS046,"पेट साफ नहीं होता (pet saaf nahi hota)
+Literal: Stomach doesn’t get cleaned
+Meaning: Constipation or incomplete evacuation; common digestive concern.
+Cultural context: Common Indian idiom for irregular bowel movements.
+Synonyms/variants: कब्ज़ है, मल नहीं निकलता
+Disambiguation questions: कितने दिन में टॉयलेट जाते हैं? | क्या मल सख्त रहता है? | खाना और पानी कैसा लेते हैं?",cultural_semantics,hi-en,Gastrointestinal,mild_to_moderate,False
+CS047,"गर्मी बढ़ गई है शरीर में (garmi badh gayi hai shareer mein)
+Literal: Heat has increased in the body
+Meaning: Lay explanation for fever, acne, ulcers, or restlessness.
+Cultural context: Ayurvedic notion of body ‘heat’ imbalance.
+Synonyms/variants: बॉडी में गर्मी है, शरीर जल रहा है
+Disambiguation questions: क्या बुखार है? | धूप या गर्म चीज़ों से बढ़ता है? | पानी कितना पीते हैं?",cultural_semantics,hi-en,General / Cultural Belief,varies,False
+CS048,"सिर घूम रहा है (sir ghoom raha hai)
+Literal: Head is spinning
+Meaning: Vertigo or dizziness; due to inner ear or low BP.
+Cultural context: Used interchangeably with ‘chakkar aana’.
+Synonyms/variants: चक्कर आ रहा है, सर चकरा रहा है
+Disambiguation questions: कब होता है — उठने पर या लगातार? | क्या उल्टी आती है? | कान में बजना?",cultural_semantics,hi-en,Neurology / ENT,moderate,True
+CS049,"आँखों में जलन है (aankhon mein jalan hai)
+Literal: There is burning in the eyes
+Meaning: Eye irritation from dryness, infection, or allergy.
+Cultural context: Frequent idiom for irritation due to pollution or heat.
+Synonyms/variants: आँख दुख रही है, आँखों में खुजली
+Disambiguation questions: क्या पानी या मवाद निकलता है? | क्या रोशनी से परेशानी होती है? | स्क्रीन पर कितनी देर रहते हैं?",cultural_semantics,hi-en,Ophthalmology / ENT,mild_to_moderate,False
+CS050,"पेट में गैस चढ़ जाती है (pet mein gas chadh jaati hai)
+Literal: Gas rises up in the stomach
+Meaning: Bloating or reflux; often misattributed cause for chest discomfort.
+Cultural context: Common explanatory phrase in India for acidity-related symptoms.
+Synonyms/variants: गैस ऊपर चढ़ गई, डकारें आती हैं
+Disambiguation questions: क्या डकारें आती हैं? | खाने के बाद बढ़ता है? | सीने में जलन होती है?",cultural_semantics,hi-en,Gastrointestinal,mild_to_moderate,True
+CS051,"गला सूख रहा है (gala sookh raha hai)
+Literal: Throat is drying up
+Meaning: Dry mouth; dehydration, anxiety, or medication side effect.
+Cultural context: Used to describe thirst or nervous dryness of mouth.
+Synonyms/variants: मुँह सूख रहा है, तृषा लग रही है
+Disambiguation questions: क्या पानी ज़्यादा पी रहे हैं? | शुगर की जांच हुई? | गर्मी या डर के वक्त बढ़ता है?",cultural_semantics,hi-en,ENT / Endocrine / Mental Health,mild,False
+CS052,"मुँह से बदबू आती है (munh se badboo aati hai)
+Literal: Bad smell comes from mouth
+Meaning: Halitosis; could stem from poor oral hygiene, gastritis, or sinus issues.
+Cultural context: Socially sensitive complaint in India, often linked to ‘pet saaf nahi hona’.
+Synonyms/variants: साँस से बदबू, मुँह में खराब स्वाद
+Disambiguation questions: क्या पेट ठीक रहता है? | मुँह धोने के बाद भी बदबू रहती है? | कोई दाँत या मसूड़े में दर्द?",cultural_semantics,hi-en,ENT / Dental / Gastrointestinal,mild_to_moderate,False
+CS053,"मुँह में मिठास लगती है (munh mein mithaas lagti hai)
+Literal: Mouth tastes sweet
+Meaning: Possible hyperglycemia symptom or altered taste sensation.
+Cultural context: Some diabetics describe sweet taste or sticky saliva.
+Synonyms/variants: थूक चिपचिपा, मुँह में अजीब स्वाद
+Disambiguation questions: क्या शुगर की दवा चल रही है? | पेशाब ज़्यादा आता है? | थकान या प्यास लगती है?",cultural_semantics,hi-en,Endocrine / General,mild,True
+CS054,"माथा गर्म लग रहा है (maatha garam lag raha hai)
+Literal: Forehead feels hot
+Meaning: Fever or localized headache; common indicator of illness.
+Cultural context: Lay method of identifying fever by touch.
+Synonyms/variants: बुखार जैसा लग रहा है, शरीर गर्म लग रहा
+Disambiguation questions: क्या तापमान नापा? | कब से गर्मी लग रही है? | कोई और लक्षण साथ में?",cultural_semantics,hi-en,General / Infectious,mild_to_moderate,False
+CS055,"नाक बंद है (naak band hai)
+Literal: Nose is blocked
+Meaning: Nasal congestion; could be due to cold, allergy, or sinusitis.
+Cultural context: Extremely common Indian idiom during cold weather.
+Synonyms/variants: नाक से सांस नहीं आती, जुकाम है
+Disambiguation questions: कब से नाक बंद है? | क्या बुखार है? | क्या एलर्जी होती है?",cultural_semantics,hi-en,ENT / Respiratory,mild,False
+CS056,"बलगम निकल रहा है (balgam nikal raha hai)
+Literal: Phlegm is coming out
+Meaning: Productive cough; bronchitis or infection.
+Cultural context: Used for mucus-producing cough, common in Indian winter.
+Synonyms/variants: खांसी में कफ, छाती साफ हो रही
+Disambiguation questions: कफ का रंग क्या है? | खांसी कितने दिन से है? | धूम्रपान करते हैं?",cultural_semantics,hi-en,Respiratory,mild_to_moderate,True
+CS057,"पेट में कीड़े हैं (pet mein keede hain)
+Literal: There are worms in the stomach
+Meaning: Worm infestation; common belief for unexplained abdominal pain in children.
+Cultural context: Common lay belief especially among rural populations.
+Synonyms/variants: पेट में कीड़े पड़ गए, कीड़ों की दवा लेते हैं
+Disambiguation questions: क्या बच्चा पेट दर्द की शिकायत करता है? | खाने में मन नहीं करता? | पिछली बार कीड़ा मार दवा कब ली?",cultural_semantics,hi-en,Pediatrics / Gastrointestinal,mild_to_moderate,False
+CS058,"सिर फट रहा है (sir phat raha hai)
+Literal: Head is bursting
+Meaning: Severe headache or migraine; expression of extreme pain.
+Cultural context: Used hyperbolically to convey intense headache or stress.
+Synonyms/variants: बहुत तेज़ सिरदर्द, सर दर्द से पागल हो गया
+Disambiguation questions: कब से दर्द है? | रोशनी या आवाज़ से बढ़ता है? | कभी बेहोशी हुई?",cultural_semantics,hi-en,Neurology / Pain,severe,True
+CS059,"दिल उचाट हो गया है (dil uchhat ho gaya hai)
+Literal: Heart has lost interest
+Meaning: Loss of motivation or enjoyment; anhedonia or burnout.
+Cultural context: Common idiom indicating emotional fatigue or mild depression.
+Synonyms/variants: मन नहीं लगता, दिल ऊब गया है
+Disambiguation questions: क्या किसी चीज़ में आनंद आता है? | कब से ऐसा महसूस हो रहा है? | नींद और भूख कैसी है?",cultural_semantics,hi-en,Mental Health,mild_to_moderate,True
+CS060,"वो दिन चल रहे हैं (wo din chal rahe hain)
+Literal: Those days are going on
+Meaning: Currently menstruating; euphemism for menstrual period.
+Cultural context: Common modest way of saying ‘on period’ in India, often to avoid direct mention.
+Synonyms/variants: पीरियड्स चल रहे हैं, मासिक धर्म चल रहा है
+Disambiguation questions: क्या दर्द ज़्यादा है? | कितने दिन से चल रहे हैं? | रक्तस्राव कितना है?",cultural_semantics,hi-en,Reproductive Health,mild_to_moderate,False
+CS061,"पेट में बहुत दर्द है उन दिनों (pet mein bahut dard hai un dino)
+Literal: There is much pain in the stomach during those days
+Meaning: Dysmenorrhea; menstrual cramps.
+Cultural context: Widely used expression for period cramps or lower abdominal pain.
+Synonyms/variants: पीरियड्स में दर्द, नीचे के पेट में मरोड़
+Disambiguation questions: कितने दिन रहता है दर्द? | दवा लेती हैं? | कभी बेहोशी या उल्टी होती है?",cultural_semantics,hi-en,Reproductive Health,moderate_to_severe,True
+CS062,"कमज़ोरी लगती है पीरियड्स में (kamzori lagti hai periods mein)
+Literal: Weakness is felt during periods
+Meaning: Menstrual fatigue or mild anemia.
+Cultural context: Common self-reported symptom during menstruation.
+Synonyms/variants: थकान होती है, दम नहीं रहता
+Disambiguation questions: क्या हर महीने कमजोरी लगती है? | हीमोग्लोबिन की जांच हुई? | खाना-पीना ठीक रहता है?",cultural_semantics,hi-en,Reproductive Health / General,mild,False
+CS063,"पीरियड्स बहुत अनियमित हैं (periods bahut aniyamit hain)
+Literal: Periods are very irregular
+Meaning: Menstrual irregularity; may indicate PCOS, thyroid, or stress-related causes.
+Cultural context: Direct but common expression; usually self-reported by urban patients.
+Synonyms/variants: मासिक धर्म समय पर नहीं आता, डेट्स मिस हो जाती हैं
+Disambiguation questions: कब से अनियमितता है? | कोई दवा ले रही हैं? | वज़न या बालों में बदलाव?",cultural_semantics,hi-en,Reproductive Health,moderate,True
+CS064,"बहुत ज़्यादा ब्लीडिंग होती है (bahut zyada bleeding hoti hai)
+Literal: There is very heavy bleeding
+Meaning: Menorrhagia; excessive menstrual flow.
+Cultural context: Common concern; may cause anemia or fatigue.
+Synonyms/variants: बहुत खून निकलता है, लंबे दिन तक पीरियड्स रहते हैं
+Disambiguation questions: कितने दिन तक ब्लीडिंग रहती है? | कपड़े या पैड कितनी बार बदलती हैं? | चक्कर या थकान होती है?",cultural_semantics,hi-en,Reproductive Health,severe,True
+CS065,"पीरियड्स के पहले चिड़चिड़ापन रहता है (periods ke pehle chidchidapan rehta hai)
+Literal: Irritability remains before periods
+Meaning: Premenstrual syndrome (PMS) – mood changes, irritability.
+Cultural context: Relates to emotional fluctuations before menstruation.
+Synonyms/variants: मन नहीं लगता, गुस्सा जल्दी आता है
+Disambiguation questions: क्या हर महीने ऐसा होता है? | कितने दिन पहले शुरू होता है? | क्या नींद या भूख पर असर पड़ता है?",cultural_semantics,hi-en,Mental Health / Reproductive Health,mild_to_moderate,False
+CS066,"पीरियड्स में पेट फूल जाता है (periods mein pet phool jaata hai)
+Literal: Stomach gets bloated during periods
+Meaning: Menstrual bloating; water retention or hormonal swelling.
+Cultural context: Common premenstrual symptom described in daily talk.
+Synonyms/variants: पेट भारी लगता है, फूलन महसूस होती है
+Disambiguation questions: क्या हर महीने ऐसा होता है? | खाने से बढ़ता है? | कितने दिन में कम हो जाता है?",cultural_semantics,hi-en,Reproductive Health / Gastrointestinal,mild,False
+CS067,"पीरियड्स में चक्कर आते हैं (periods mein chakkar aate hain)
+Literal: Dizziness occurs during periods
+Meaning: Hypotension or anemia during menstruation.
+Cultural context: Expresses low BP or iron deficiency symptoms linked to menstruation.
+Synonyms/variants: सिर घूमता है, कमज़ोरी लगती है
+Disambiguation questions: क्या हर बार चक्कर आते हैं? | हीमोग्लोबिन की जांच कराई? | क्या दवा लेती हैं?",cultural_semantics,hi-en,Reproductive Health / Neurology,moderate,True
+CS068,"पीरियड्स में नींद नहीं आती (periods mein neend nahi aati)
+Literal: Sleep doesn’t come during periods
+Meaning: Insomnia due to cramps, discomfort, or mood fluctuations.
+Cultural context: Common symptom reflecting hormonal and physical discomfort.
+Synonyms/variants: नींद टूट जाती है, आराम नहीं मिलता
+Disambiguation questions: क्या दर्द से नींद नहीं आती? | क्या हर महीने ऐसा होता है? | कोई दवा या चाय-कॉफी रात में?",cultural_semantics,hi-en,Reproductive Health / Mental Health,mild_to_moderate,False
+CS069,"उन दिनों मूड बदल जाता है (un dino mood badal jaata hai)
+Literal: Mood changes during those days
+Meaning: Mood swings during menstruation or PMS.
+Cultural context: Casual acknowledgment of hormonal mood variation during menstruation.
+Synonyms/variants: रोना आता है, गुस्सा जल्दी आता है
+Disambiguation questions: क्या मूड हर बार बदलता है? | कितने दिन तक रहता है? | नींद या काम पर असर पड़ता है?",cultural_semantics,hi-en,Mental Health / Reproductive Health,mild,False
+CS070,"नीचे भारीपन लगता है (neeche bhaaripan lagta hai)
+Literal: Heaviness is felt below
+Meaning: Pelvic heaviness during menstruation; may indicate cramps or PMS.
+Cultural context: Polite phrasing for menstrual discomfort in lower abdomen.
+Synonyms/variants: नीचे खिंचाव, कमर में दबाव
+Disambiguation questions: क्या ये दर्द हर महीने होता है? | कितने दिन तक रहता है? | क्या बुखार या सफेद डिस्चार्ज है?",cultural_semantics,hi-en,Reproductive Health,mild_to_moderate,False
+CS071,"नीचे खिंचाव सा होता है (neeche khinchaav sa hota hai)
+Literal: There is a pulling sensation below
+Meaning: Pelvic discomfort or mild cramping before/during periods.
+Cultural context: Common idiom indicating internal tension before menstruation.
+Synonyms/variants: पेट में खिंचाव, नीचे दर्द
+Disambiguation questions: कितने दिन पहले दर्द शुरू होता है? | क्या पीरियड्स के बाद ठीक हो जाता है? | कभी ज़्यादा तेज़ दर्द हुआ?",cultural_semantics,hi-en,Reproductive Health,mild,False
+CS072,"खून के थक्के निकलते हैं (khoon ke thakke nikalte hain)
+Literal: Blood clots come out
+Meaning: Passage of clots during menstruation; may indicate heavy flow.
+Cultural context: Frequent concern shared by women describing heavy periods.
+Synonyms/variants: थक्के बनते हैं, खून गाढ़ा है
+Disambiguation questions: क्या हर महीने थक्के आते हैं? | कितने बड़े थक्के होते हैं? | क्या दर्द के साथ आते हैं?",cultural_semantics,hi-en,Reproductive Health,moderate_to_severe,True
+CS073,"पेट नीचे खिंचता है (pet neeche khinchta hai)
+Literal: The stomach pulls downward
+Meaning: Lower abdominal cramping during periods.
+Cultural context: Vivid description of uterine cramps.
+Synonyms/variants: नीचे दर्द, पेट में ऐंठन
+Disambiguation questions: क्या हर महीने ऐसा दर्द होता है? | कितनी देर रहता है? | दवा से आराम मिलता है?",cultural_semantics,hi-en,Reproductive Health,moderate,False
+CS074,"शरीर टूटता है पीरियड्स में (shareer toot-ta hai periods mein)
+Literal: The body breaks during periods
+Meaning: Extreme body ache or fatigue during menstruation.
+Cultural context: Expresses fatigue, pain, and body weakness during menstruation.
+Synonyms/variants: बदन दर्द होता है, कमर टूटती है
+Disambiguation questions: क्या हर बार ऐसा महसूस होता है? | आराम से ठीक होता है? | खून ज़्यादा निकलता है?",cultural_semantics,hi-en,Reproductive Health / General,moderate,False
+CS075,"वो दिन लेट आ गए (wo din late aa gaye)
+Literal: Those days came late
+Meaning: Delayed period; possible hormonal imbalance or stress.
+Cultural context: Polite euphemism for menstrual delay, used commonly in social settings.
+Synonyms/variants: डेट्स लेट हुई, पीरियड्स देर से आए
+Disambiguation questions: कितने दिन लेट हुए? | क्या ऐसा पहले भी हुआ? | कोई दवा या तनाव रहा?",cultural_semantics,hi-en,Reproductive Health,mild_to_moderate,False
+CS076,"वो दिन समय पर नहीं आते (wo din samay par nahi aate)
+Literal: Those days don’t come on time
+Meaning: Irregular menstrual cycles.
+Cultural context: Another indirect euphemism for delayed or irregular periods.
+Synonyms/variants: पीरियड्स मिस होते हैं, डेट्स गड़बड़ हैं
+Disambiguation questions: कितने दिनों से गड़बड़ चल रही है? | कोई तनाव या दवा शुरू की? | पीसीओएस या थायरॉइड की जांच हुई?",cultural_semantics,hi-en,Reproductive Health,moderate,True
+CS077,"वो दिन बहुत जल्दी आ जाते हैं (wo din bahut jaldi aa jaate hain)
+Literal: Those days come too early
+Meaning: Short menstrual cycle; possible hormonal imbalance or stress response.
+Cultural context: Used to describe frequent menstruation or shortened cycle.
+Synonyms/variants: पीरियड्स जल्दी आ जाते हैं, सायकल छोटा हो गया
+Disambiguation questions: कितने दिन में दोबारा आ जाते हैं? | क्या ब्लीडिंग ज़्यादा होती है? | कोई नई दवा शुरू की?",cultural_semantics,hi-en,Reproductive Health,mild_to_moderate,True
+CS078,"वो दिन आने वाले हैं (wo din aane wale hain)
+Literal: Those days are about to come
+Meaning: Premenstrual phase with emotional and physical symptoms.
+Cultural context: Indirectly indicates upcoming menstruation; often linked with mood or cramps.
+Synonyms/variants: डेट्स आने वाली हैं, मूड खराब है उन दिनों से पहले
+Disambiguation questions: क्या हर महीने ऐसा महसूस होता है? | कितने दिन पहले लक्षण शुरू होते हैं?",cultural_semantics,hi-en,Reproductive Health / Mental Health,mild,False
+CS079,"वो दिन बहुत दर्दनाक होते हैं (wo din bahut dardnaak hote hain)
+Literal: Those days are very painful
+Meaning: Severe dysmenorrhea; possibly endometriosis or uterine pathology.
+Cultural context: Common expression reflecting extreme period pain and discomfort.
+Synonyms/variants: पीरियड्स में बहुत तकलीफ होती है, दर्द बर्दाश्त नहीं होता
+Disambiguation questions: कितने साल से ऐसा दर्द है? | क्या दवा से राहत मिलती है? | कभी अल्ट्रासाउंड कराया?",cultural_semantics,hi-en,Reproductive Health,severe,True
+CS080,"वो दिन बहुत हल्के रहते हैं (wo din bahut halke rehte hain)
+Literal: Those days are very light
+Meaning: Scanty menstrual flow (hypomenorrhea).
+Cultural context: Used to describe very little bleeding, often linked to stress or hormonal change.
+Synonyms/variants: कम खून निकलता है, बहुत हल्के पीरियड्स
+Disambiguation questions: पहले ऐसा नहीं होता था? | कितने दिन तक रहता है? | कोई नई दवा या तनाव?",cultural_semantics,hi-en,Reproductive Health,mild,False
+CS081,"वो दिन रुक-रुक कर आते हैं (wo din ruk-ruk kar aate hain)
+Literal: Those days come intermittently
+Meaning: Interrupted or spotting-type menstrual flow.
+Cultural context: Common phrase for irregular bleeding or mid-cycle spotting.
+Synonyms/variants: बीच-बीच में ब्लीडिंग, पीरियड्स टूट-टूट कर आते हैं
+Disambiguation questions: क्या हर महीने ऐसा होता है? | बीच में ब्लीडिंग होती है? | दवा लेती हैं?",cultural_semantics,hi-en,Reproductive Health,moderate,True
+CS082,"नीचे जलन होती है पीरियड्स में (neeche jalan hoti hai periods mein)
+Literal: Burning occurs below during periods
+Meaning: Vulvar irritation or infection during menstruation.
+Cultural context: Often due to poor hygiene or allergic reaction to pads.
+Synonyms/variants: नीचे खुजली या जलन, जलन बढ़ जाती है उन दिनों
+Disambiguation questions: क्या हर महीने ऐसा होता है? | क्या किसी खास पैड से बढ़ता है? | सफेद या बदबूदार डिस्चार्ज है?",cultural_semantics,hi-en,Reproductive Health / Infection,mild_to_moderate,True
+CS083,"गंध आती है उन दिनों (gandh aati hai un dino)
+Literal: Smell comes during those days
+Meaning: Foul menstrual odor possibly due to infection or poor hygiene.
+Cultural context: Sensitive concern, often avoided in direct conversation.
+Synonyms/variants: पीरियड्स में बदबू, खराब गंध
+Disambiguation questions: क्या ये हर बार होता है? | क्या डिस्चार्ज या खुजली भी है? | पैड कितनी बार बदलती हैं?",cultural_semantics,hi-en,Reproductive Health / Hygiene,mild_to_moderate,True
+CS084,"पीरियड्स में कमर टूटती है (periods mein kamar toot-ti hai)
+Literal: Back breaks during periods
+Meaning: Severe lower back pain associated with menstruation.
+Cultural context: Very common phrase expressing backache and fatigue.
+Synonyms/variants: पीठ दर्द, नीचे दर्द
+Disambiguation questions: क्या दर्द नीचे तक जाता है? | कितने दिन रहता है? | आराम से कम होता है?",cultural_semantics,hi-en,Reproductive Health / Musculoskeletal,moderate,False
+CS085,"नीचे दबाव महसूस होता है (neeche dabav mehsoos hota hai)
+Literal: Pressure is felt below
+Meaning: Pelvic pressure or heaviness during menstruation.
+Cultural context: Polite phrasing describing discomfort during flow days.
+Synonyms/variants: नीचे भारीपन, दबाव दर्द
+Disambiguation questions: क्या हर महीने ऐसा दबाव लगता है? | क्या दर्द या जलन भी है? | लेटने से आराम मिलता है?",cultural_semantics,hi-en,Reproductive Health,mild,False
+CS086,"पीरियड्स में मन खराब रहता है (periods mein man kharab rehta hai)
+Literal: Mind feels bad during periods
+Meaning: Low mood or irritability during menstruation (PMS).
+Cultural context: Common euphemism for mood swings during menstruation.
+Synonyms/variants: मूड डाउन, कुछ अच्छा नहीं लगता
+Disambiguation questions: क्या हर महीने ऐसा महसूस होता है? | क्या काम पर असर पड़ता है? | क्या पीरियड्स के बाद मूड ठीक हो जाता है?",cultural_semantics,hi-en,Reproductive Health / Mental Health,mild_to_moderate,False
+CS087,"नीचे सूजन आ जाती है (neeche soojan aa jaati hai)
+Literal: Swelling occurs below
+Meaning: Vulvar or pelvic swelling during menstruation; may be due to inflammation or fluid retention.
+Cultural context: Sensitive topic, described euphemistically.
+Synonyms/variants: सूजन या फुलाव नीचे, भारीपन महसूस होता है
+Disambiguation questions: क्या दर्द या जलन भी है? | कितने दिन रहती है? | क्या हर महीने ऐसा होता है?",cultural_semantics,hi-en,Reproductive Health,mild_to_moderate,True
+CS088,"वो दिन में बदन भारी रहता है (wo din mein badan bhaari rehta hai)
+Literal: Body feels heavy during those days
+Meaning: Menstrual fatigue and water retention.
+Cultural context: Expresses lethargy and discomfort linked to menstruation.
+Synonyms/variants: शरीर सुस्त लगता है, थकान रहती है
+Disambiguation questions: क्या हर बार ऐसा महसूस होता है? | क्या हीमोग्लोबिन की जांच हुई? | क्या नींद पूरी होती है?",cultural_semantics,hi-en,Reproductive Health / General,mild,False
+CS089,"वो दिन में बुरा महसूस होता है (wo din mein bura mehsoos hota hai)
+Literal: Feel bad during those days
+Meaning: General discomfort and low energy during menstruation.
+Cultural context: Catch-all phrase for irritability, fatigue, or unease during periods.
+Synonyms/variants: मूड खराब रहता है, बेचैनी रहती है
+Disambiguation questions: क्या हर बार ऐसा महसूस होता है? | क्या दर्द या थकान भी रहती है? | क्या पीरियड्स खत्म होने पर ठीक हो जाता है?",cultural_semantics,hi-en,Reproductive Health / Mental Health,mild,False
+CS090,"पेट में हवा भरी है (pet mein hawa bhari hai)
+Literal: The stomach is filled with air
+Meaning: Abdominal bloating or distension due to gas.
+Cultural context: Used jokingly but genuinely to describe bloating or flatulence.
+Synonyms/variants: गैस हो गई, पेट फूला हुआ है
+Disambiguation questions: क्या डकारें आती हैं? | खाने के बाद बढ़ता है? | गैस की दवा से राहत मिलती है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS091,"गैस ऊपर चढ़ गई है (gas upar chadh gayi hai)
+Literal: Gas has risen upwards
+Meaning: Reflux or chest discomfort due to trapped gas; often confused with heart pain.
+Cultural context: Very common North Indian expression mixing humor and worry.
+Synonyms/variants: गैस ऊपर चढ़ी है, डकार नहीं निकल रही
+Disambiguation questions: क्या सीने में जलन होती है? | खाना खाने के बाद बढ़ता है? | डकार से राहत मिलती है?",cultural_semantics,hi-en,Gastrointestinal / Cardiac (differential),mild_to_moderate,True
+CS092,"पेट गुड़गुड़ कर रहा है (pet gudgud kar raha hai)
+Literal: The stomach is making gurgling sounds
+Meaning: Intestinal motility or gas movement; often normal digestion or mild upset.
+Cultural context: Commonly said with humor or embarrassment when stomach noises are audible.
+Synonyms/variants: पेट बोल रहा है, गुड़गुड़ आवाज़ आ रही है
+Disambiguation questions: क्या पेट दर्द के साथ है? | क्या भूख लगने पर होता है? | खाने के बाद बढ़ता है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS093,"डकार नहीं निकल रही (dakar nahi nikal rahi)
+Literal: Burp is not coming out
+Meaning: Trapped air in stomach causing discomfort.
+Cultural context: Typical Indian way to describe indigestion or incomplete burping.
+Synonyms/variants: गैस फंसी है, डकार अटकी हुई है
+Disambiguation questions: क्या दर्द के साथ है? | क्या हर बार खाना खाने के बाद होता है? | क्या डकार निकलने पर आराम मिलता है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS094,"गैस बन रही है (gas ban rahi hai)
+Literal: Gas is forming
+Meaning: Flatulence, bloating, or abdominal discomfort.
+Cultural context: Everyday expression for minor digestive distress; used humorously.
+Synonyms/variants: पेट फूल रहा है, अपच हो गया
+Disambiguation questions: क्या दर्द भी है? | खाने से पहले या बाद में? | कितने दिन से चल रहा है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS095,"पेट फूला हुआ है (pet phoola hua hai)
+Literal: Stomach is swollen
+Meaning: Abdominal bloating or distension.
+Cultural context: Most common rural phrasing for feeling full or inflated.
+Synonyms/variants: पेट में फुलाव, फूला पेट
+Disambiguation questions: क्या दर्द या भारीपन भी है? | कब से ऐसा है? | क्या खाना खाने के बाद बढ़ता है?",cultural_semantics,hi-en,Gastrointestinal,mild_to_moderate,False
+CS096,"गैस नीचे फँसी हुई है (gas neeche fasi hui hai)
+Literal: Gas is trapped below
+Meaning: Flatulence with lower abdominal discomfort.
+Cultural context: Folksy way to describe trapped intestinal gas; often said humorously.
+Synonyms/variants: गैस अटकी है, नीचे दबाव है
+Disambiguation questions: क्या गैस निकलने पर आराम मिलता है? | क्या पेट दर्द साथ है? | कब से ऐसा होता है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS097,"पेट में गुब्बारे जैसा लग रहा है (pet mein gubbare jaisa lag raha hai)
+Literal: Feels like there’s a balloon in the stomach
+Meaning: Abdominal distension due to gas or overeating.
+Cultural context: Metaphoric humorous exaggeration common in Indian households.
+Synonyms/variants: पेट फूल गया है, हवा भर गई है
+Disambiguation questions: खाने के बाद ऐसा लगता है? | आराम से बैठने पर कम होता है? | क्या गैस की दवा ली?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS098,"गैस ऊपर नीचे हो रही है (gas upar neeche ho rahi hai)
+Literal: Gas is moving up and down
+Meaning: Reflux or gas movement in abdomen; non-specific gastric unease.
+Cultural context: Popular descriptive phrase in semi-urban India; both serious and funny.
+Synonyms/variants: गैस घूम रही है, पेट में हलचल
+Disambiguation questions: क्या सीने में जलन भी होती है? | क्या गैस ऊपर तक आती है? | क्या डकार निकलती है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS099,"गैस से सिर दर्द हो रहा है (gas se sir dard ho raha hai)
+Literal: Headache is happening because of gas
+Meaning: Referred symptom belief — gas attributed as cause of headache.
+Cultural context: Very Indian explanatory model linking digestion with headaches.
+Synonyms/variants: गैस चढ़ी है सिर तक, गैस से चक्कर आ रहा
+Disambiguation questions: क्या हर बार गैस से सिर दर्द होता है? | क्या नींद या भूख प्रभावित है? | दवा से राहत मिलती है?",cultural_semantics,hi-en,Gastrointestinal / Folk Belief,mild_to_moderate,False
+CS100,"गैस अटक गई है (gas atak gayi hai)
+Literal: The gas is stuck
+Meaning: Trapped intestinal gas causing abdominal discomfort.
+Cultural context: Very common casual phrase said with frustration or humor.
+Synonyms/variants: गैस फंसी हुई है, डकार नहीं निकल रही
+Disambiguation questions: क्या पेट दर्द साथ है? | क्या गैस निकलने पर आराम होता है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS101,"गैस चढ़ गई थी कल रात (gas chadh gayi thi kal raat)
+Literal: Gas had risen last night
+Meaning: Gastric reflux or severe bloating at night.
+Cultural context: Used commonly when people wake up with heaviness or heartburn.
+Synonyms/variants: गैस ऊपर चली गई, गैस चढ़ी थी
+Disambiguation questions: क्या सीने में जलन हुई? | खाने के बाद लेट गए थे?",cultural_semantics,hi-en,Gastrointestinal,moderate,True
+CS102,"गैस घूम रही है शरीर में (gas ghoom rahi hai shareer mein)
+Literal: Gas is roaming around in the body
+Meaning: Perceived migrating discomfort due to gas; non-localized bloating.
+Cultural context: Describes general unease or pain moving around the body.
+Synonyms/variants: गैस इधर-उधर घूम रही है, पेट से सिर तक जा रही है
+Disambiguation questions: कहाँ-कहाँ दर्द घूमता है? | क्या हर बार ऐसा होता है?",cultural_semantics,hi-en,Gastrointestinal / Folk Belief,mild_to_moderate,False
+CS103,"गैस सिर पर चढ़ गई है (gas sir par chadh gayi hai)
+Literal: Gas has gone up to the head
+Meaning: Cultural belief linking gas with headache or dizziness.
+Cultural context: Very Indian idiom connecting digestion and brain symptoms humorously.
+Synonyms/variants: गैस से सिर दर्द, गैस चढ़ गई
+Disambiguation questions: क्या हर बार ऐसा होता है? | क्या खाकर बढ़ता है? | नींद पूरी हुई?",cultural_semantics,hi-en,Gastrointestinal / Folk Explanatory Model,mild,False
+CS104,"पेट में गुड़गुड़ और जलन दोनों हैं (pet mein gudgud aur jalan dono hain)
+Literal: There’s both gurgling and burning in the stomach
+Meaning: Gastritis or acid reflux with bloating.
+Cultural context: Typical way to describe mixed symptoms humorously.
+Synonyms/variants: पेट में जलन, गैस बन रही है
+Disambiguation questions: क्या खाना खाने के बाद बढ़ता है? | क्या सीने तक जलन जाती है?",cultural_semantics,hi-en,Gastrointestinal,moderate,True
+CS105,"गैस निकल ही नहीं रही (gas nikal hi nahi rahi)
+Literal: The gas just isn’t coming out
+Meaning: Constipation or trapped gas in lower abdomen.
+Cultural context: Said with mild frustration or laughter, very common in daily talk.
+Synonyms/variants: फंसी हुई है, डकार नहीं निकल रही
+Disambiguation questions: क्या दर्द साथ है? | क्या मल भी नहीं हुआ?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS106,"गैस से पेट कड़ा हो गया है (gas se pet kada ho gaya hai)
+Literal: The stomach has become hard due to gas
+Meaning: Abdominal distension and tightness from gas or constipation.
+Cultural context: Frequent expression among elders describing fullness and tension.
+Synonyms/variants: पेट तना हुआ है, भरा हुआ है
+Disambiguation questions: क्या मल या गैस निकली? | कब से ऐसा महसूस हो रहा है?",cultural_semantics,hi-en,Gastrointestinal,moderate,False
+CS107,"गैस से छाती भारी लग रही है (gas se chhati bhaari lag rahi hai)
+Literal: Chest feels heavy due to gas
+Meaning: Reflux-related heaviness; must be differentiated from cardiac pain.
+Cultural context: Typical middle-age phrasing, often underestimating heart issues.
+Synonyms/variants: गैस ऊपर चढ़ी है, सीने में भारीपन
+Disambiguation questions: क्या दर्द बाएं हाथ तक जाता है? | क्या लेटने से बढ़ता है? | क्या गैस की दवा से राहत मिलती है?",cultural_semantics,hi-en,Gastrointestinal / Cardiac Overlap,moderate,True
+CS108,"गैस की वजह से मूड भी खराब है (gas ki wajah se mood bhi kharab hai)
+Literal: Because of gas, even the mood is bad
+Meaning: Discomfort from bloating affecting emotional state.
+Cultural context: Light-hearted yet real link between digestion and mood in Indian households.
+Synonyms/variants: पेट खराब तो मूड खराब, गैस से चिड़चिड़ापन
+Disambiguation questions: क्या पेट ठीक होने पर मूड ठीक हो जाता है? | क्या हर बार ऐसा होता है?",cultural_semantics,hi-en,Gastrointestinal / Mental Health,mild,False
+CS109,"गैस की वजह से भूख नहीं लग रही (gas ki wajah se bhukh nahi lag rahi)
+Literal: Because of gas, appetite is gone
+Meaning: Loss of appetite due to indigestion or bloating.
+Cultural context: Everyday explanation linking poor appetite to ‘gas’.
+Synonyms/variants: पेट भारी है, भूख मरी हुई है
+Disambiguation questions: क्या पिछले कुछ दिनों से भूख कम है? | क्या दर्द या जलन भी है?",cultural_semantics,hi-en,Gastrointestinal,mild,False
+CS110,"घुटनों में जंग लग गई है (ghutno mein jang lag gayi hai)
+Literal: Rust has settled in the knees
+Meaning: Joint stiffness due to arthritis or aging.
+Cultural context: Used humorously by older adults to describe knee stiffness.
+Synonyms/variants: घुटने जाम हो गए, पैर नहीं मुड़ते
+Disambiguation questions: क्या सूजन भी है? | ठंड में बढ़ता है? | चलने में तकलीफ होती है?",cultural_semantics,hi-en,Musculoskeletal,moderate,False
+CS111,"हड्डियों में दर्द समा गया है (haddiyon mein dard sama gaya hai)
+Literal: Pain has entered the bones
+Meaning: Deep musculoskeletal or arthritic pain.
+Cultural context: Used to convey chronic or weather-related pain.
+Synonyms/variants: पूरा शरीर दर्द कर रहा, हड्डियाँ टूट रही हैं
+Disambiguation questions: क्या दर्द एक जगह है या पूरे शरीर में? | क्या बुखार भी था?",cultural_semantics,hi-en,Musculoskeletal,moderate_to_severe,False
+CS112,"पीठ टूट रही है (peeth toot rahi hai)
+Literal: The back is breaking
+Meaning: Severe backache or fatigue-related muscle pain.
+Cultural context: Colloquial exaggeration to express severe back pain.
+Synonyms/variants: कमर टूट रही, पीठ दर्द हो गया
+Disambiguation questions: क्या दर्द नीचे पैरों तक जाता है? | कितने दिन से है? | आराम से ठीक होता है?",cultural_semantics,hi-en,Musculoskeletal,moderate,False
+CS113,"हड्डियाँ चटक रही हैं (haddiyan chatak rahi hain)
+Literal: Bones are cracking
+Meaning: Joint cracking or stiffness due to age or cold.
+Cultural context: Describes audible joint sounds; often joked about by elders.
+Synonyms/variants: जोड़ बज रहे हैं, घुटनों से आवाज़ आ रही है
+Disambiguation questions: क्या दर्द के साथ आवाज़ आती है? | ठंड में बढ़ती है?",cultural_semantics,hi-en,Musculoskeletal,mild,False
+CS114,"कमर में जकड़न है (kamar mein jakadn hai)
+Literal: There is tightness in the back
+Meaning: Lumbar stiffness or muscle strain.
+Cultural context: Common idiom for back tension, used across genders.
+Synonyms/variants: पीठ कसी हुई है, कमर जाम
+Disambiguation questions: क्या दर्द नीचे पैरों तक जाता है? | क्या उठने-बैठने में दिक्कत है?",cultural_semantics,hi-en,Musculoskeletal,mild_to_moderate,False
+CS115,"घुटनों में पानी भर गया है (ghutno mein paani bhar gaya hai)
+Literal: Water has filled in the knees
+Meaning: Knee effusion due to arthritis or inflammation.
+Cultural context: Literal translation of medical term; widely used idiom.
+Synonyms/variants: घुटने सूज गए, दर्द के साथ सूजन
+Disambiguation questions: क्या सूजन गर्म है? | क्या चलने पर दर्द बढ़ता है?",cultural_semantics,hi-en,Musculoskeletal,moderate,True
+CS116,"हड्डियाँ बज रही हैं (haddiyan baj rahi hain)
+Literal: Bones are playing sounds
+Meaning: Joint crepitus or age-related friction in joints.
+Cultural context: Said humorously to mock old age stiffness.
+Synonyms/variants: जोड़ चरमरा रहे, घुटने बोल रहे हैं
+Disambiguation questions: क्या दर्द भी होता है? | क्या हर बार आवाज़ आती है?",cultural_semantics,hi-en,Musculoskeletal,mild,False
+CS117,"हड्डियों में ठंड घुस गई है (haddiyon mein thand ghus gayi hai)
+Literal: Cold has entered the bones
+Meaning: Joint pain aggravated by cold weather or infection.
+Cultural context: Common in rural areas during winter; metaphor for stiffness.
+Synonyms/variants: ठंड से दर्द बढ़ गया, जोड़ अकड़ गए
+Disambiguation questions: क्या ठंड से बढ़ता है? | क्या गरम करने से राहत मिलती है?",cultural_semantics,hi-en,Musculoskeletal / Seasonal,mild_to_moderate,False
+CS118,"कंधा जाम हो गया है (kandha jam ho gaya hai)
+Literal: Shoulder is jammed
+Meaning: Frozen shoulder or shoulder stiffness.
+Cultural context: Common complaint among diabetics or sedentary individuals.
+Synonyms/variants: कंधा नहीं घूमता, हाथ ऊपर नहीं उठता
+Disambiguation questions: कब से नहीं घूम रहा? | कोई चोट लगी थी?",cultural_semantics,hi-en,Musculoskeletal,moderate_to_severe,True
+CS119,"जोड़ों में चुभन होती है (jodon mein chubhan hoti hai)
+Literal: There’s a prickling in the joints
+Meaning: Arthritic inflammation or nerve sensitivity.
+Cultural context: Used by elders to describe sharp intermittent pain.
+Synonyms/variants: सुई चुभती है, दर्द काटता है
+Disambiguation questions: क्या सूजन भी है? | ठंड या गर्मी से फर्क पड़ता है?",cultural_semantics,hi-en,Musculoskeletal,moderate,False
+CS120,"गरदन जाम हो गई है (gardan jam ho gayi hai)
+Literal: Neck has become jammed
+Meaning: Cervical stiffness due to muscle spasm or poor posture.
+Cultural context: Commonly used after sleeping in bad posture or stress.
+Synonyms/variants: गरदन नहीं घूमती, गर्दन अकड़ गई
+Disambiguation questions: क्या दर्द हाथ तक जा रहा है? | क्या गर्दन घुमाने पर बढ़ता है?",cultural_semantics,hi-en,Musculoskeletal,mild_to_moderate,False
+CS121,"साइटिका का दर्द है (sciatica ka dard hai)
+Literal: It’s sciatica pain
+Meaning: Radiating pain from lower back to legs due to nerve compression.
+Cultural context: Word ‘साइटिका’ is colloquially used by older adults who heard it from doctors.
+Synonyms/variants: कमर से पैर तक दर्द, नस दब गई है
+Disambiguation questions: क्या दर्द पैर तक जाता है? | क्या झनझनाहट या सुन्नपन है?",cultural_semantics,hi-en,Musculoskeletal / Neurology,moderate_to_severe,True
+CS122,"नस दब गई है (nas dab gayi hai)
+Literal: A nerve has been pressed
+Meaning: Neuropathic or mechanical compression pain.
+Cultural context: Used broadly for tingling, numbness, or muscle pain.
+Synonyms/variants: नस चढ़ गई, नस में खिंचाव
+Disambiguation questions: कहाँ दर्द हो रहा है? | क्या सुन्नपन भी है? | क्या अचानक हुआ?",cultural_semantics,hi-en,Musculoskeletal / Neurology,moderate,True
+CS123,"कंधे में खिंचाव है (kandhe mein khinchav hai)
+Literal: There’s a pull in the shoulder
+Meaning: Shoulder muscle strain or mild sprain.
+Cultural context: Common description after lifting heavy items.
+Synonyms/variants: कंधा दर्द कर रहा, हाथ उठाने में खिंचाव
+Disambiguation questions: क्या दर्द धीरे-धीरे बढ़ा? | कोई चीज़ उठाई थी?",cultural_semantics,hi-en,Musculoskeletal,mild,False
+CS124,"कमर झुकाने पर दर्द होता है (kamar jhukane par dard hota hai)
+Literal: Pain occurs when bending the back
+Meaning: Mechanical back pain or muscle spasm.
+Cultural context: Typical Indian phrasing for describing lumbar pain.
+Synonyms/variants: कमर दर्द, पीठ में खिंचाव
+Disambiguation questions: क्या दर्द पैरों तक फैलता है? | आराम करने से ठीक होता है?",cultural_semantics,hi-en,Musculoskeletal,mild_to_moderate,False
+CS125,"जोड़ अकड़ गए हैं (jod akad gaye hain)
+Literal: Joints have stiffened
+Meaning: Joint stiffness due to arthritis, inactivity, or cold.
+Cultural context: Used by elders during winter or in chronic arthritis.
+Synonyms/variants: घुटने अकड़ गए, हाथ नहीं मुड़ते
+Disambiguation questions: कब से अकड़न है? | क्या गरम करने से राहत मिलती है?",cultural_semantics,hi-en,Musculoskeletal,moderate,False
+CS126,"घुटनों में सीढ़ी चढ़ने पर दर्द होता है (ghutno mein seedhi chadhne par dard hota hai)
+Literal: Pain occurs in knees when climbing stairs
+Meaning: Knee osteoarthritis or patellofemoral pain.
+Cultural context: Everyday phrase for early arthritis symptom.
+Synonyms/variants: घुटनों में भारीपन, घुटने जवाब दे रहे
+Disambiguation questions: क्या दर्द चलने पर बढ़ता है? | क्या सूजन भी है?",cultural_semantics,hi-en,Musculoskeletal,mild_to_moderate,True
+CS127,"हाथ उठाने में दर्द होता है (haath uthane mein dard hota hai)
+Literal: It hurts to raise the arm
+Meaning: Shoulder impingement or rotator cuff inflammation.
+Cultural context: Common middle-age complaint, especially in diabetics.
+Synonyms/variants: कंधा नहीं उठता, हाथ में दर्द
+Disambiguation questions: क्या दर्द अचानक हुआ? | क्या सोने में तकलीफ होती है?",cultural_semantics,hi-en,Musculoskeletal,moderate,True
+CS128,"पैरों में भारीपन है (pairon mein bhaaripan hai)
+Literal: There’s heaviness in the legs
+Meaning: Leg fatigue, venous insufficiency, or joint stiffness.
+Cultural context: Very common Indian phrasing for lower-limb fatigue.
+Synonyms/variants: पैर थके हुए हैं, टांगों में दम नहीं
+Disambiguation questions: क्या सूजन भी है? | क्या आराम करने से ठीक होता है?",cultural_semantics,hi-en,Musculoskeletal / Circulatory,mild_to_moderate,False
+CS129,"रीढ़ में दर्द हो रहा है (reedh mein dard ho raha hai)
+Literal: Pain is happening in the spine
+Meaning: Backache due to spinal or muscular cause.
+Cultural context: Used broadly; can indicate stress-related or posture-related pain.
+Synonyms/variants: कमर दर्द, पीठ दर्द
+Disambiguation questions: क्या दर्द नीचे तक जाता है? | कब से है?",cultural_semantics,hi-en,Musculoskeletal,moderate,True
+CS130,"उम्र हो गई है, शरीर साथ नहीं देता (umr ho gayi hai, sharir saath nahi deta)
+Literal: Age has caught up, the body doesn’t support anymore
+Meaning: General fatigue, age-related decline, or frailty.
+Cultural context: Used with resignation; blends physical and emotional exhaustion.
+Synonyms/variants: अब दम नहीं बचा, बूढ़ा शरीर है
+Disambiguation questions: क्या चलने में दिक्कत है? | वजन घटा है हाल में?",cultural_semantics,hi-en,Geriatric / General,chronic,False
+CS131,"अब तो हड्डियाँ जवाब दे रही हैं (ab to haddiyan jawab de rahi hain)
+Literal: Now even the bones are giving up
+Meaning: Osteoarthritis or generalized bone weakness.
+Cultural context: Common elderly expression of chronic pain with humor or complaint.
+Synonyms/variants: हड्डियाँ थक गईं, अब तो सब दुखता है
+Disambiguation questions: क्या दर्द हर जोड़ में है? | चलने में तकलीफ होती है?",cultural_semantics,hi-en,Musculoskeletal / Geriatric,moderate,False
+CS132,"पूरा बदन टूटा जा रहा है (poora badan toota ja raha hai)
+Literal: The whole body is breaking apart
+Meaning: Generalized body ache; often due to viral illness, age, or fatigue.
+Cultural context: Everyday way of describing total fatigue or malaise.
+Synonyms/variants: पूरा शरीर दर्द कर रहा, दम नहीं है
+Disambiguation questions: क्या बुखार भी है? | आराम करने से राहत मिलती है?",cultural_semantics,hi-en,Musculoskeletal / General,moderate,False
+CS133,"थकान उतरती ही नहीं (thakaan utarti hi nahi)
+Literal: The tiredness just doesn’t go away
+Meaning: Persistent fatigue; possible anemia, depression, or hypothyroid.
+Cultural context: Said with frustration; implies ongoing tiredness despite rest.
+Synonyms/variants: हमेशा थकान रहती है, दम नहीं है
+Disambiguation questions: नींद ठीक आती है? | भूख कैसी है?",cultural_semantics,hi-en,General / Geriatric,moderate,True
+CS134,"जोड़ों में जंग लग गया है (jodon mein jang lag gaya hai)
+Literal: Rust has set into the joints
+Meaning: Joint stiffness from arthritis or aging.
+Cultural context: Playful metaphor likening old joints to rusty hinges.
+Synonyms/variants: घुटने जाम, चलना मुश्किल
+Disambiguation questions: क्या सुबह ज्यादा जकड़न होती है? | क्या गर्म सेक से राहत है?",cultural_semantics,hi-en,Musculoskeletal / Geriatric,mild_to_moderate,False
+CS135,"अब तो उठने-बैठने में भी डर लगता है (ab to uthne-baithne mein bhi dar lagta hai)
+Literal: Now I even fear sitting and standing
+Meaning: Mobility limitation due to arthritis or frailty.
+Cultural context: Said by elders expressing loss of confidence in movement.
+Synonyms/variants: गिरने का डर रहता है, चलने में भरोसा नहीं
+Disambiguation questions: क्या पहले गिर चुके हैं? | क्या सहारे से चलते हैं?",cultural_semantics,hi-en,Geriatric / Mobility,severe,True
+CS136,"कंधे बोझ नहीं उठा पाते (kandhe bojh nahi uthate)
+Literal: The shoulders can’t bear any weight
+Meaning: Muscle weakness or shoulder arthritis.
+Cultural context: Expresses decline in strength with age.
+Synonyms/variants: हाथों में ताकत नहीं, बोझ उठाते डर लगता है
+Disambiguation questions: क्या गिरने का डर लगता है? | क्या रोजमर्रा के काम में दिक्कत है?",cultural_semantics,hi-en,Musculoskeletal / Geriatric,moderate,False
+CS137,"नींद भी अब पहले जैसी नहीं आती (neend bhi ab pehle jaisi nahi aati)
+Literal: Even sleep isn’t the same anymore
+Meaning: Age-related sleep changes, anxiety, or depression.
+Cultural context: A reflective complaint blending physical and emotional fatigue.
+Synonyms/variants: नींद टूट जाती है, रात में करवटें बदलता हूँ
+Disambiguation questions: रात में कितनी बार नींद खुलती है? | दिन में नींद आती है?",cultural_semantics,hi-en,Geriatric / Mental Health,moderate,True
+CS138,"बूढ़ा शरीर है, दर्द तो रहेगा (boodha sharir hai, dard to rahega)
+Literal: It’s an old body, pain will always be there
+Meaning: Chronic musculoskeletal pain normalized as part of aging.
+Cultural context: Acceptance of chronic pain as part of old age.
+Synonyms/variants: अब दर्द जीवन का हिस्सा है
+Disambiguation questions: क्या दर्द बढ़ता जा रहा है? | कभी राहत मिलती है?",cultural_semantics,hi-en,Geriatric / Cultural Belief,chronic,False
+CS139,"अब तो दवा भी असर नहीं करती (ab to dawa bhi asar nahi karti)
+Literal: Now even the medicine doesn’t work
+Meaning: Perceived resistance or tolerance to pain relief/medicine.
+Cultural context: Common phrase reflecting frustration with chronic illness.
+Synonyms/variants: दवा लेने से भी आराम नहीं
+Disambiguation questions: क्या पहले राहत मिलती थी? | क्या दवा नियमित लेते हैं?",cultural_semantics,hi-en,Geriatric / General,severe,True
+CS140,"याददाश्त कमजोर हो गई है (yaaddasht kamzor ho gayi hai)
+Literal: Memory has become weak
+Meaning: Age-related memory loss or early cognitive decline.
+Cultural context: Commonly used by elders describing forgetfulness.
+Synonyms/variants: नाम याद नहीं रहते, भूलने लगा हूँ
+Disambiguation questions: क्या जरूरी बातें भूल जाते हैं? | क्या रास्ता भूल जाते हैं?",cultural_semantics,hi-en,Geriatric / Cognitive Health,mild_to_moderate,True
+CS141,"अब कान भी ठीक से नहीं सुनते (ab kaan bhi theek se nahi sunte)
+Literal: Now even the ears don’t hear well
+Meaning: Age-related hearing loss (presbycusis).
+Cultural context: Said matter-of-factly or humorously by elders.
+Synonyms/variants: आवाज़ साफ़ नहीं आती, बोलो ज़रा ऊँचा
+Disambiguation questions: कब से सुनने में दिक्कत है? | क्या दोनों कानों में समान है?",cultural_semantics,hi-en,Geriatric / Sensory Health,moderate,False
+CS142,"आँखें धुंधला गई हैं (aankhen dhundhla gayi hain)
+Literal: Eyes have become blurry
+Meaning: Reduced vision due to cataract, aging, or diabetes.
+Cultural context: Often said casually as part of aging conversation.
+Synonyms/variants: स्पष्ट नहीं दिखता, रोशनी कम हो गई
+Disambiguation questions: क्या दोनों आँखों में है? | क्या धुंधलापन लगातार बढ़ रहा है?",cultural_semantics,hi-en,Geriatric / Ophthalmology,moderate,True
+CS143,"अब भूख भी नहीं लगती (ab bhukh bhi nahi lagti)
+Literal: Now even hunger doesn’t come
+Meaning: Loss of appetite; may indicate aging, depression, or illness.
+Cultural context: Often said with sadness, reflecting fatigue or disinterest in food.
+Synonyms/variants: खाने का मन नहीं होता, कुछ अच्छा नहीं लगता
+Disambiguation questions: कब से भूख कम है? | वजन घटा है क्या?",cultural_semantics,hi-en,Geriatric / Digestive,moderate,True
+CS144,"अब तो चलना भी भारी लगता है (ab to chalna bhi bhaari lagta hai)
+Literal: Now even walking feels heavy
+Meaning: Physical weakness, fatigue, or frailty.
+Cultural context: Used commonly to describe loss of stamina in old age.
+Synonyms/variants: पैर नहीं उठते, चलने में दम नहीं
+Disambiguation questions: क्या चढ़ाई पर ज़्यादा दिक्कत होती है? | क्या सांस फूलती है?",cultural_semantics,hi-en,Geriatric / Mobility,moderate,True
+CS145,"मन कुछ नहीं करता अब (man kuch nahi karta ab)
+Literal: The mind doesn’t feel like doing anything now
+Meaning: Apathy, mild depression, or emotional burnout.
+Cultural context: Common in lonely elders; may indicate loss of motivation or mood decline.
+Synonyms/variants: जीने की इच्छा नहीं, सब बोझ लगता है
+Disambiguation questions: क्या किसी चीज़ में दिलचस्पी नहीं रहती? | नींद और भूख कैसी है?",cultural_semantics,hi-en,Geriatric / Mental Health,moderate_to_severe,True
+CS146,"अब पहले जैसी ताकत नहीं रही (ab pehle jaisi taqat nahi rahi)
+Literal: There’s no strength like before
+Meaning: Muscle weakness, aging, or post-illness fatigue.
+Cultural context: Used to compare present weakness with youthful vigor.
+Synonyms/variants: अब दम नहीं बचा, शक्ति खत्म हो गई
+Disambiguation questions: कब से कमजोरी महसूस हो रही है? | वजन कम हुआ है?",cultural_semantics,hi-en,Geriatric / Strength,moderate,False
+CS147,"सांस छोटी पड़ जाती है (saans chhoti pad jaati hai)
+Literal: Breath becomes short
+Meaning: Breathlessness; possible heart or lung condition.
+Cultural context: Common among elders with cardiac or COPD issues.
+Synonyms/variants: सांस फूल जाती है, दम फूलता है
+Disambiguation questions: क्या आराम करने पर सांस ठीक हो जाती है? | क्या सीने में दर्द होता है?",cultural_semantics,hi-en,Geriatric / Respiratory,moderate_to_severe,True
+CS148,"अब अकेलेपन में मन घबराता है (ab akelapan mein man ghabrata hai)
+Literal: Now the heart feels uneasy in loneliness
+Meaning: Anxiety, loneliness, or mild panic in isolation.
+Cultural context: Emotional phrase expressing fear and sadness when alone.
+Synonyms/variants: अकेले डर लगता है, सन्नाटा बर्दाश्त नहीं होता
+Disambiguation questions: क्या अकेले रहते हैं? | क्या यह हर दिन होता है?",cultural_semantics,hi-en,Geriatric / Mental Health,moderate,True
+CS149,"अब जीने की इच्छा नहीं रहती (ab jeene ki ichha nahi rahti)
+Literal: Now there’s no will to live
+Meaning: Severe depression or existential fatigue.
+Cultural context: Expression of despair; may mask suicidal ideation.
+Synonyms/variants: सब थक गया है, अब कुछ अच्छा नहीं लगता
+Disambiguation questions: क्या कभी खुद को नुकसान पहुँचाने का मन हुआ? | कितने समय से ऐसा महसूस हो रहा है?",cultural_semantics,hi-en,Geriatric / Mental Health (Critical),severe,True
+CS150,"हल्का बुखार चल रहा है (halka bukhar chal raha hai)
+Literal: A mild fever is ongoing
+Meaning: Low-grade fever or post-viral residual temperature.
+Cultural context: Commonly used phrase meaning slight but persistent fever.
+Synonyms/variants: थोड़ा बुखार है, हल्का ताप है
+Disambiguation questions: कब से चल रहा है? | क्या दवा ली है?",cultural_semantics,hi-en,Infectious / General,mild,False
+CS151,"तेज़ बुखार चढ़ा था (tez bukhar chadha tha)
+Literal: High fever had risen
+Meaning: High temperature, possibly due to infection or malaria.
+Cultural context: Describes peak fever episode, sometimes with chills or shivering.
+Synonyms/variants: जोर का बुखार आया, शरीर तप गया
+Disambiguation questions: क्या कांपनी भी थी? | क्या ताप उतरा है?",cultural_semantics,hi-en,Infectious / General,severe,True
+CS152,"बुखार उतर गया लेकिन कमजोरी है (bukhar utar gaya lekin kamzori hai)
+Literal: The fever has gone down but weakness remains
+Meaning: Post-fever fatigue; common after viral infections.
+Cultural context: Frequently used phrase after recovery; implies incomplete energy restoration.
+Synonyms/variants: कमजोरी बनी हुई है, दम नहीं है
+Disambiguation questions: कितने दिन से कमजोरी है? | खाने-पीने में मन लग रहा है?",cultural_semantics,hi-en,Infectious / Recovery,mild,False
+CS153,"कांपनी छूट रही थी (kaanpni chhoot rahi thi)
+Literal: There were shivers running through the body
+Meaning: Chills and rigors; fever-related symptom, often in malaria.
+Cultural context: Used in North India for severe fever episodes.
+Synonyms/variants: ठंड लग रही थी, कांपना शुरू हुआ
+Disambiguation questions: क्या पसीना आता है बाद में? | क्या रोज़ एक ही समय पर होता है?",cultural_semantics,hi-en,Infectious / Symptoms,moderate,True
+CS154,"शरीर तप रहा है (sharir tap raha hai)
+Literal: The body is burning with heat
+Meaning: High body temperature; fever with burning sensation.
+Cultural context: Widely used metaphor in India for high fever.
+Synonyms/variants: ताप चढ़ गया, शरीर गर्म है
+Disambiguation questions: क्या शरीर में जलन भी है? | क्या ताप मापा गया?",cultural_semantics,hi-en,Infectious / General,severe,True
+CS155,"पसीना निकलने पर राहत मिली (paseena nikalne par rahat mili)
+Literal: Felt better after sweating
+Meaning: Fever broke after perspiration (defervescence).
+Cultural context: Common traditional sign that fever is subsiding.
+Synonyms/variants: पसीने के बाद ताप उतर गया
+Disambiguation questions: क्या फिर बुखार आया? | क्या खाना खा पा रहे हैं?",cultural_semantics,hi-en,Infectious / Recovery,mild,False
+CS156,"बुखार बार-बार आता है (bukhar baar-baar aata hai)
+Literal: The fever keeps coming again and again
+Meaning: Recurrent fever; could indicate malaria, typhoid, or infection.
+Cultural context: Used widely when fever reappears after temporary relief.
+Synonyms/variants: ताप उतरता नहीं, हर शाम बुखार आता है
+Disambiguation questions: कितने दिन से बार-बार आ रहा है? | क्या ताप हर रोज़ एक समय पर आता है?",cultural_semantics,hi-en,Infectious / Recurrent,moderate,True
+CS157,"गला बैठ गया और बुखार भी है (gala baith gaya aur bukhar bhi hai)
+Literal: Throat has gone hoarse and fever is there too
+Meaning: Upper respiratory infection; likely viral or flu.
+Cultural context: Common in seasonal changes; conveys throat inflammation with fever.
+Synonyms/variants: गले में खराश है, आवाज़ बैठ गई
+Disambiguation questions: क्या निगलने में दर्द है? | क्या खांसी भी है?",cultural_semantics,hi-en,Infectious / ENT,mild_to_moderate,False
+CS158,"बुखार में शरीर टूट रहा है (bukhar mein sharir toot raha hai)
+Literal: The body is breaking during fever
+Meaning: Severe body ache associated with fever.
+Cultural context: Very common Indian way to describe viral fever body ache.
+Synonyms/variants: पूरा बदन दर्द कर रहा, हड्डियाँ दुख रही हैं
+Disambiguation questions: क्या दर्द पूरे शरीर में है? | क्या आराम करने से राहत मिलती है?",cultural_semantics,hi-en,Infectious / Symptoms,moderate,False
+CS159,"सिर भारी लग रहा है (sir bhaari lag raha hai)
+Literal: The head feels heavy
+Meaning: Headache or heaviness due to fever, cold, or sinus.
+Cultural context: Everyday Indian idiom for feverish or congested feeling.
+Synonyms/variants: सिर दर्द है, सिर भरा हुआ लगता है
+Disambiguation questions: क्या बुखार के साथ है? | क्या आंखों के पास भी दर्द है?",cultural_semantics,hi-en,Infectious / General,mild_to_moderate,False
+CS160,"गर्मी का बुखार है (garmi ka bukhar hai)
+Literal: It’s a heat-related fever
+Meaning: Fever attributed to heat exhaustion, dehydration, or viral infection.
+Cultural context: Common summer expression for fever due to heat exposure or spicy food.
+Synonyms/variants: धूप का बुखार, लू लग गई
+Disambiguation questions: क्या धूप में ज्यादा समय रहे? | क्या पानी कम पिया था?",cultural_semantics,hi-en,Infectious / Environmental,mild_to_moderate,False
+CS161,"ठंडी लग गई है (thandi lag gayi hai)
+Literal: The cold has caught on
+Meaning: Fever with chills; often used to describe catching a cold or flu.
+Cultural context: Frequently used interchangeably for viral fever or cold.
+Synonyms/variants: सर्दी लग गई, ठंड चढ़ गई
+Disambiguation questions: क्या नाक बंद है या खांसी है? | क्या बुखार भी है?",cultural_semantics,hi-en,Infectious / Respiratory,mild,False
+CS162,"डेंगू जैसा बुखार लग रहा है (dengue jaisa bukhar lag raha hai)
+Literal: Feels like dengue fever
+Meaning: High fever with body ache and fatigue; dengue suspected.
+Cultural context: Lay suspicion of dengue based on local prevalence and symptoms.
+Synonyms/variants: डेंगू टाइप बुखार, प्लेटलेट्स की चिंता
+Disambiguation questions: क्या प्लेटलेट्स की जाँच हुई? | क्या बदन पर दाने हैं?",cultural_semantics,hi-en,Infectious / Vector-borne,moderate_to_severe,True
+CS163,"मलेरिया जैसा बुखार है (malaria jaisa bukhar hai)
+Literal: It feels like malaria fever
+Meaning: Cyclical fever with chills and sweating; malaria suspicion.
+Cultural context: People self-diagnose malaria due to fever pattern or community spread.
+Synonyms/variants: बार-बार ताप आता है, कांपनी चढ़ती है
+Disambiguation questions: क्या हर दूसरे दिन ताप आता है? | क्या कांपनी और पसीना आता है?",cultural_semantics,hi-en,Infectious / Vector-borne,moderate,True
+CS164,"खून का बुखार बताया है (khoon ka bukhar bataya hai)
+Literal: They said it’s a blood fever
+Meaning: Lay term for typhoid, dengue, or any fever diagnosed via blood test.
+Cultural context: Frequently used after hearing test results; non-specific but alarming.
+Synonyms/variants: टाइफाइड, ब्लड इन्फेक्शन
+Disambiguation questions: कौनसे टेस्ट में बताया? | क्या खून की रिपोर्ट देखी है?",cultural_semantics,hi-en,Infectious / Lay Terminology,moderate_to_severe,True
+CS165,"टाइफाइड बताया है (typhoid bataya hai)
+Literal: They said it’s typhoid
+Meaning: Confirmed or suspected typhoid fever.
+Cultural context: Widely known infection, often linked to food/water contamination.
+Synonyms/variants: पेट का बुखार, खून में इंफेक्शन
+Disambiguation questions: क्या रिपोर्ट में कन्फर्म है? | क्या दवा शुरू की?",cultural_semantics,hi-en,Infectious / Gastrointestinal,moderate,True
+CS166,"थकावट से बुखार आ गया (thakawat se bukhar aa gaya)
+Literal: Fever came due to exhaustion
+Meaning: Low-grade fever or fatigue-induced viral reaction.
+Cultural context: Common in India; people attribute fever to overwork or lack of rest.
+Synonyms/variants: काम की थकान का बुखार, ज्यादा मेहनत से ताप
+Disambiguation questions: क्या आराम से बुखार उतर जाता है? | क्या दोहराया गया है पहले?",cultural_semantics,hi-en,General / Fatigue-related,mild,False
+CS167,"बुखार में दिमाग भारी है (bukhar mein dimaag bhaari hai)
+Literal: The mind feels heavy during fever
+Meaning: Fever-associated headache or mental dullness.
+Cultural context: Describes brain fog or heaviness during fever.
+Synonyms/variants: सर भारी है, ध्यान नहीं लगता
+Disambiguation questions: क्या सिर दर्द भी है? | क्या ताप बहुत तेज़ है?",cultural_semantics,hi-en,Infectious / Neurology,mild_to_moderate,False
+CS168,"बुखार उतरकर ठंड लग रही है (bukhar utarkar thand lag rahi hai)
+Literal: Feeling cold after the fever has gone down
+Meaning: Post-fever chills or weakness.
+Cultural context: Used when temperature drops suddenly after high fever.
+Synonyms/variants: पसीने के बाद ठंड लग रही, कमज़ोरी के कारण ठंड
+Disambiguation questions: क्या ताप फिर बढ़ता है? | क्या ब्लड प्रेशर लो महसूस होता है?",cultural_semantics,hi-en,Infectious / Recovery,mild,False
+CS169,"बुखार के बाद भूख नहीं लगती (bukhar ke baad bhukh nahi lagti)
+Literal: No hunger after fever
+Meaning: Post-illness anorexia or reduced appetite.
+Cultural context: Very common phrase in recovery phase; implies slow return to normalcy.
+Synonyms/variants: खाने का मन नहीं होता, सब फीका लगता है
+Disambiguation questions: कितने दिन से भूख कम है? | क्या धीरे-धीरे बढ़ रही है?",cultural_semantics,hi-en,Infectious / Recovery,mild,False
+CS170,"सांस फूल रही है (saans phool rahi hai)
+Literal: The breath is puffing
+Meaning: Shortness of breath or dyspnea; possible asthma, COPD, or cardiac cause.
+Cultural context: Very common Indian expression for breathlessness, both physical and anxiety-related.
+Synonyms/variants: दम फूल रहा है, घुटन हो रही है
+Disambiguation questions: क्या लेटने पर बढ़ती है? | क्या सीटी जैसी आवाज़ आती है?",cultural_semantics,hi-en,Respiratory / Cardiac,moderate_to_severe,True
+CS171,"घुटन महसूस होती है (ghutan mehsoos hoti hai)
+Literal: Feelings of suffocation
+Meaning: Chest tightness or suffocation sensation; may indicate anxiety or respiratory congestion.
+Cultural context: Used for both physical congestion and emotional distress.
+Synonyms/variants: दम घुट रहा है, हवा नहीं लग रही
+Disambiguation questions: क्या बंद जगह में ज़्यादा होता है? | क्या सांस लेने में दिक्कत है?",cultural_semantics,hi-en,Respiratory / Psychological,moderate,True
+CS172,"छाती भारी लग रही है (chaati bhaari lag rahi hai)
+Literal: The chest feels heavy
+Meaning: Chest tightness; can indicate bronchitis, asthma, or cardiac pain.
+Cultural context: Frequently used for both emotional stress and physical congestion.
+Synonyms/variants: सीने पर बोझ है, दिल भारी है
+Disambiguation questions: क्या दर्द बाएं हाथ तक जाता है? | क्या लेटने पर बढ़ता है?",cultural_semantics,hi-en,Respiratory / Cardiac,moderate_to_severe,True
+CS173,"सांस अटक रही है (saans atak rahi hai)
+Literal: The breath is getting stuck
+Meaning: Intermittent breath obstruction; may indicate asthma, anxiety, or airway issue.
+Cultural context: Describes interrupted or difficult breathing in panic or illness.
+Synonyms/variants: दम अटक रहा है, सांस रुक रही है
+Disambiguation questions: क्या सांस बंद होने जैसा लगता है? | क्या इनहेलर से राहत मिलती है?",cultural_semantics,hi-en,Respiratory / Urgent,severe,True
+CS174,"खांसी के साथ सांस फूलती है (khansi ke saath saans phoolti hai)
+Literal: Breathlessness occurs with cough
+Meaning: Suggestive of bronchitis, asthma, or COPD.
+Cultural context: Common phrasing for chronic respiratory distress.
+Synonyms/variants: खांसी करते दम फूलता है, सांस और खांसी साथ हैं
+Disambiguation questions: क्या रात में बढ़ती है? | क्या धूल/धुएँ से बढ़ती है?",cultural_semantics,hi-en,Respiratory,moderate_to_severe,True
+CS175,"दम घुटने लगता है (dam ghutne lagta hai)
+Literal: It feels like the breath is choking
+Meaning: Severe breathlessness or panic-induced suffocation.
+Cultural context: Can indicate both panic and physical distress; emotionally loaded phrase.
+Synonyms/variants: सांस नहीं आती, घुटन लगती है
+Disambiguation questions: क्या ये हर बार तनाव में होता है? | क्या बाहर खुली हवा में राहत मिलती है?",cultural_semantics,hi-en,Respiratory / Psychological,severe,True
+CS176,"सांस लेने में घरघराहट है (saans lene mein ghargharaahat hai)
+Literal: There is wheezing in breathing
+Meaning: Wheezing or whistling sound during breathing; asthma or bronchospasm.
+Cultural context: Common in asthma or COPD; patient notices noisy breath.
+Synonyms/variants: सीटी जैसी आवाज़ आती है, घुर्र-घुर्र होती है
+Disambiguation questions: क्या इनहेलर से राहत मिलती है? | क्या सीटी जैसी आवाज़ हर सांस में है?",cultural_semantics,hi-en,Respiratory,moderate,True
+CS177,"सांस लेने में दर्द होता है (saans lene mein dard hota hai)
+Literal: It hurts to breathe
+Meaning: Pleuritic chest pain or musculoskeletal pain.
+Cultural context: Used for pain on deep inspiration, often after cold or infection.
+Synonyms/variants: गहरी सांस लेने पर दर्द, सीने में चुभन
+Disambiguation questions: क्या दर्द सांस लेने पर बढ़ता है? | क्या खांसी या बुखार भी है?",cultural_semantics,hi-en,Respiratory / Cardiac,moderate,True
+CS178,"सांस फूलकर आवाज़ आने लगती है (saans phoolkar awaaz aane lagti hai)
+Literal: When breath increases, a sound starts coming
+Meaning: Wheezing during exertion; asthma or COPD.
+Cultural context: Describes breath sound during activity, recognized by laypeople.
+Synonyms/variants: दम फूलने पर सीटी बजती है
+Disambiguation questions: क्या रात को भी सांस फूलती है? | क्या इनहेलर से आराम मिलता है?",cultural_semantics,hi-en,Respiratory,moderate_to_severe,True
+CS179,"रात में सांस रुकने जैसा लगता है (raat mein saans rukne jaisa lagta hai)
+Literal: Feels like breath stops at night
+Meaning: Possible sleep apnea, heart failure, or anxiety-related choking sensation.
+Cultural context: Used by elders describing nocturnal breath interruption.
+Synonyms/variants: नींद में दम घुटता है, सांस बंद हो जाती है
+Disambiguation questions: क्या खर्राटे आते हैं? | क्या रात में बार-बार उठते हैं?",cultural_semantics,hi-en,Respiratory / Sleep Health,severe,True
+CS180,"पेट में जलन हो रही है (pet mein jalan ho rahi hai)
+Literal: There is burning in the stomach
+Meaning: Gastric acidity or acid reflux.
+Cultural context: Common household description for heartburn or gastritis.
+Synonyms/variants: अम्लता, सीने तक जलन आ रही है
+Disambiguation questions: क्या खाने के बाद बढ़ती है? | क्या खट्टी डकार आती है?",cultural_semantics,hi-en,Digestive / Gastrointestinal,mild_to_moderate,False
+CS181,"खट्टी डकारें आ रही हैं (khattee dakaren aa rahi hain)
+Literal: Sour burps are coming
+Meaning: Acid reflux or dyspepsia.
+Cultural context: Common Indian sign of indigestion or acidity.
+Synonyms/variants: डकार में जलन, खटास महसूस होना
+Disambiguation questions: क्या रात में ज़्यादा होता है? | क्या पेट फूलता है?",cultural_semantics,hi-en,Digestive / Gastrointestinal,mild,False
+CS182,"पेट भारी लग रहा है (pet bhaari lag raha hai)
+Literal: The stomach feels heavy
+Meaning: Indigestion, slow digestion, or bloating.
+Cultural context: Very frequent Indian phrase post-meal discomfort.
+Synonyms/variants: अपच, भरा हुआ लगना
+Disambiguation questions: क्या गैस भी होती है? | क्या खाना भारी था?",cultural_semantics,hi-en,Digestive / Common,mild,False
+CS183,"पेट में गुड़गुड़ हो रही है (pet mein gurgur ho rahi hai)
+Literal: The stomach is making gurgling sounds
+Meaning: Gastrointestinal movement, gas, or mild infection.
+Cultural context: Playful but descriptive Indian phrase for bloating or mild upset stomach.
+Synonyms/variants: गैस बन रही है, पेट में उथल-पुथल है
+Disambiguation questions: क्या दस्त हो रहे हैं? | क्या कुछ भारी खाया था?",cultural_semantics,hi-en,Digestive / Bloating,mild,False
+CS184,"खाने का मन नहीं है (khane ka man nahi hai)
+Literal: Don’t feel like eating
+Meaning: Loss of appetite or nausea.
+Cultural context: Often associated with fever, stress, or gastritis.
+Synonyms/variants: भूख नहीं लगती, सब फीका लगता है
+Disambiguation questions: कितने दिन से भूख नहीं लग रही? | क्या मितली होती है?",cultural_semantics,hi-en,Digestive / General,mild,False
+CS185,"मितली आ रही है (mitli aa rahi hai)
+Literal: Nausea is coming
+Meaning: Nausea, vomiting sensation.
+Cultural context: Frequent expression in Indian households for upset stomach or pregnancy-related nausea.
+Synonyms/variants: उल्टी जैसा लग रहा है
+Disambiguation questions: क्या उल्टी हुई? | क्या खाना देखकर मितली होती है?",cultural_semantics,hi-en,Digestive / Nausea,mild_to_moderate,False
+CS186,"पेट साफ़ नहीं हो रहा (pet saaf nahi ho raha)
+Literal: The stomach is not getting cleared
+Meaning: Constipation or incomplete bowel evacuation.
+Cultural context: Daily concern in Indian families, linked to diet and wellness.
+Synonyms/variants: कब्ज है, मल नहीं हो रहा
+Disambiguation questions: कितने दिन से कब्ज है? | क्या गैस या दर्द भी होता है?",cultural_semantics,hi-en,Digestive / Bowel,mild_to_moderate,False
+CS187,"गैस चढ़ गई है (gas chadh gayi hai)
+Literal: The gas has gone up
+Meaning: Bloating, reflux, or anxiety described through lay idiom.
+Cultural context: Extremely common Indian phrase — can mean heartburn, bloating, or tension.
+Synonyms/variants: गैस बन गई, पेट फूला है
+Disambiguation questions: क्या डकार आती है? | क्या छाती में जलन भी है?",cultural_semantics,hi-en,Digestive / Colloquial,mild,False
+CS188,"पेट में मरोड़ उठ रहा है (pet mein marod uth raha hai)
+Literal: Cramps are rising in the stomach
+Meaning: Abdominal cramps due to infection, diarrhea, or food poisoning.
+Cultural context: Used vividly to describe painful cramps or stomach ache.
+Synonyms/variants: पेट दर्द, उल्टी-दस्त के पहले दर्द
+Disambiguation questions: क्या दस्त भी हो रहे हैं? | क्या खाना बाहर का खाया था?",cultural_semantics,hi-en,Digestive / Acute,moderate,False
+CS189,"पेट फूल गया है (pet phool gaya hai)
+Literal: The stomach has swollen up
+Meaning: Severe bloating or flatulence.
+Cultural context: Very common Indian way of describing abdominal distension.
+Synonyms/variants: पेट में हवा भर गई, गैस बनी हुई है
+Disambiguation questions: क्या डकार आती है? | क्या पेट में दर्द भी है?",cultural_semantics,hi-en,Digestive / Bloating,mild_to_moderate,False
+CS190,"दस्त लग गए हैं (dast lag gaye hain)
+Literal: Loose motions have started
+Meaning: Diarrhea, commonly due to food infection or stomach upset.
+Cultural context: Most common Indian phrase for diarrhea; widely understood.
+Synonyms/variants: ढीले दस्त, पेट खराब है
+Disambiguation questions: दिन में कितनी बार हो रहे हैं? | क्या खून या म्यूकस है?",cultural_semantics,hi-en,Digestive / Acute Infection,moderate,True
+CS191,"पेट खराब है (pet kharab hai)
+Literal: The stomach is upset
+Meaning: Non-specific stomach disturbance — could mean diarrhea, nausea, or discomfort.
+Cultural context: Very common umbrella phrase for any digestive issue.
+Synonyms/variants: पेट ठीक नहीं चल रहा, खाना नहीं पच रहा
+Disambiguation questions: क्या उल्टी-दस्त हो रहे हैं? | क्या कोई बाहर का खाना खाया था?",cultural_semantics,hi-en,Digestive / Common,mild_to_moderate,False
+CS192,"खाना खराब हो गया था (khana kharab ho gaya tha)
+Literal: The food had gone bad
+Meaning: Food poisoning from spoiled food.
+Cultural context: Commonly used when people suspect food poisoning.
+Synonyms/variants: खराब खाना खा लिया, पुराना खाना था
+Disambiguation questions: कब खाया था? | बाकी लोगों को भी हुआ?",cultural_semantics,hi-en,Digestive / Foodborne,moderate_to_severe,True
+CS193,"उल्टी-दस्त चल रहे हैं (ulti-dast chal rahe hain)
+Literal: Vomiting and diarrhea are ongoing
+Meaning: Acute gastroenteritis or food poisoning.
+Cultural context: Describes simultaneous vomiting and diarrhea; urgent medical issue.
+Synonyms/variants: पेट खराब है, वॉटर इन्फेक्शन
+Disambiguation questions: कितनी बार उल्टी हुई? | क्या पानी पी पा रहे हैं?",cultural_semantics,hi-en,Digestive / Acute Infection,moderate_to_severe,True
+CS194,"पेट में मरोड़ और दस्त हैं (pet mein marod aur dast hain)
+Literal: There are cramps and loose motions
+Meaning: Infective diarrhea with abdominal cramps.
+Cultural context: Painful and urgent condition; typical rural phrasing.
+Synonyms/variants: उल्टी-दस्त, पेट दर्द के साथ दस्त
+Disambiguation questions: क्या खून या म्यूकस दिखा? | क्या हर खाने के बाद होता है?",cultural_semantics,hi-en,Digestive / Acute,moderate,True
+CS195,"पानी जैसे दस्त हो रहे हैं (paani jaise dast ho rahe hain)
+Literal: The motions are watery
+Meaning: Severe diarrhea with dehydration risk.
+Cultural context: Common emergency description for severe loose stools.
+Synonyms/variants: पानी उतर रहा है, पतले दस्त
+Disambiguation questions: क्या पेशाब हो रहा है? | क्या बहुत कमजोरी है?",cultural_semantics,hi-en,Digestive / Acute,severe,True
+CS196,"खाने के बाद भागना पड़ता है (khane ke baad bhagna padta hai)
+Literal: Have to run after eating
+Meaning: Post-meal diarrhea or IBS.
+Cultural context: Colloquial and humorous; used when digestion triggers loose motion.
+Synonyms/variants: खाना पचता नहीं, खाते ही दस्त
+Disambiguation questions: हर बार ऐसा होता है? | क्या कोई खास खाना खाने पर होता है?",cultural_semantics,hi-en,Digestive / Chronic,mild_to_moderate,False
+CS197,"पेट हिल गया है (pet hil gaya hai)
+Literal: The stomach has shaken up
+Meaning: Mild diarrhea or unsettled stomach after bad food.
+Cultural context: Playful idiom for temporary stomach upset; no serious tone.
+Synonyms/variants: थोड़ा पेट खराब है, खराब खाना खा लिया
+Disambiguation questions: क्या उल्टी भी हुई? | क्या ठीक हो गया अब?",cultural_semantics,hi-en,Digestive / Colloquial,mild,False
+CS198,"पानी की कमी लग रही है (paani ki kami lag rahi hai)
+Literal: Feeling short of water
+Meaning: Dehydration due to diarrhea or heat.
+Cultural context: Common Indian phrasing for dehydration or weakness.
+Synonyms/variants: कमज़ोरी, मुंह सूख रहा है
+Disambiguation questions: क्या पेशाब हो रहा है? | क्या बहुत चक्कर आ रहे हैं?",cultural_semantics,hi-en,Digestive / Dehydration,moderate,True
+CS199,"हर चीज़ खाने से दस्त लग जाते हैं (har cheez khane se dast lag jaate hain)
+Literal: Loose motions start with anything eaten
+Meaning: Chronic diarrhea, malabsorption, or infection.
+Cultural context: Used for persistent digestive weakness; often in elders.
+Synonyms/variants: कुछ भी खाओ, भागना पड़ता है
+Disambiguation questions: कितने दिन से चल रहा है? | क्या हर चीज़ से होता है या कुछ खास?",cultural_semantics,hi-en,Digestive / Chronic,moderate_to_severe,True
+CS200,"पित्त बढ़ गया है (pitt badh gaya hai)
+Literal: Bile has increased
+Meaning: Traditional phrase for acidity or gastritis, linked to imbalance in ‘pitta dosha’.
+Cultural context: Ayurvedic framing still widely used to describe burning, sourness, and nausea.
+Synonyms/variants: गरमी चढ़ गई है, पित्त की समस्या
+Disambiguation questions: क्या खट्टी डकारें भी हैं? | क्या उल्टी होती है?",cultural_semantics,hi-en,Digestive / Traditional Concept,mild_to_moderate,False
+CS201,"खाना हज़म नहीं हो रहा (khana hazam nahi ho raha)
+Literal: The food is not getting digested
+Meaning: Indigestion, dyspepsia, or delayed gastric emptying.
+Cultural context: Used broadly for post-meal discomfort, bloating, or fullness.
+Synonyms/variants: अपच, भारीपन
+Disambiguation questions: क्या गैस या डकार भी है? | क्या बहुत भारी खाना खाया?",cultural_semantics,hi-en,Digestive / Common,mild_to_moderate,False
+CS202,"खाना ऊपर चढ़ आता है (khana upar chadh aata hai)
+Literal: The food comes upward
+Meaning: Acid reflux or regurgitation.
+Cultural context: Typical phrasing for reflux symptoms in India.
+Synonyms/variants: खट्टी डकार के साथ खाना ऊपर आता है
+Disambiguation questions: क्या लेटने पर बढ़ता है? | क्या रात में नींद टूटती है?",cultural_semantics,hi-en,Digestive / GERD,moderate,True
+CS203,"खाने में स्वाद नहीं है (khane mein swaad nahi hai)
+Literal: There is no taste in food
+Meaning: Loss of taste, appetite, or early satiety — often in infections or depression.
+Cultural context: Used when appetite or taste is blunted.
+Synonyms/variants: सब फीका लगता है, मन नहीं करता खाने का
+Disambiguation questions: क्या बुखार के साथ है? | क्या नाक बंद है?",cultural_semantics,hi-en,Digestive / General Health,mild_to_moderate,False
+CS204,"पेट में गैस घूम रही है (pet mein gas ghoom rahi hai)
+Literal: Gas is moving around in the stomach
+Meaning: Flatulence with migrating discomfort or bloating.
+Cultural context: A vivid idiom for trapped gas sensation.
+Synonyms/variants: गैस ऊपर-नीचे घूम रही है, पेट फूला है
+Disambiguation questions: क्या डकार आती है? | क्या राहत मिलती है गैस पास होने पर?",cultural_semantics,hi-en,Digestive / Bloating,mild,False
+CS205,"डकार नहीं निकल रही (dakar nahi nikal rahi)
+Literal: The burp is not coming out
+Meaning: Trapped gas or indigestion.
+Cultural context: A very familiar phrase implying gas discomfort.
+Synonyms/variants: फंसी हुई गैस, भारीपन
+Disambiguation questions: क्या डकार लेने पर राहत मिलती है? | क्या सीने में जलन है?",cultural_semantics,hi-en,Digestive / Gas,mild,False
+CS206,"पेट में भारीपन और उबकाई आ रही है (pet mein bhaaripan aur ubkai aa rahi hai)
+Literal: Heaviness and nausea in the stomach
+Meaning: Indigestion, gastritis, or food poisoning.
+Cultural context: Common in cases of mild infection or overeating.
+Synonyms/variants: मितली, खाना पच नहीं रहा
+Disambiguation questions: क्या उल्टी हुई? | क्या भारी खाना खाया था?",cultural_semantics,hi-en,Digestive / Nausea,moderate,False
+CS207,"खाने के बाद नींद सी आती है (khane ke baad neend si aati hai)
+Literal: Feel sleepy after eating
+Meaning: Postprandial fatigue, heavy meal effect, or sugar dysregulation.
+Cultural context: Commonly mentioned when digestion is sluggish.
+Synonyms/variants: थकान लगना, नींद छा जाती है
+Disambiguation questions: हर बार खाने के बाद ऐसा होता है? | क्या बहुत भारी खाना था?",cultural_semantics,hi-en,Digestive / Metabolic,mild,False
+CS208,"पेट नीचे खिंच रहा है (pet neeche khinch raha hai)
+Literal: The stomach is pulling downwards
+Meaning: Lower abdominal heaviness or cramps; may relate to bowel, urinary, or menstrual issues.
+Cultural context: Used often by women to describe pelvic or abdominal heaviness.
+Synonyms/variants: नीचे दर्द, खिंचाव
+Disambiguation questions: क्या दस्त या पेशाब में दिक्कत है? | क्या मासिक धर्म से पहले है?",cultural_semantics,hi-en,Digestive / Reproductive Overlap,moderate,False
+CS209,"भूख लगते ही जलन शुरू हो जाती है (bhukh lagte hi jalan shuru ho jaati hai)
+Literal: As soon as hunger starts, burning begins
+Meaning: Duodenal ulcer or acid-related gastritis.
+Cultural context: Indicative of hunger-pain pattern; common in chronic gastritis.
+Synonyms/variants: खाली पेट जलन, भूख में दर्द
+Disambiguation questions: क्या खाने से राहत मिलती है? | क्या वजन घटा है?",cultural_semantics,hi-en,Digestive / Ulcer Pattern,moderate,True
+CS210,"कब्ज की दिक्कत है (kabj ki dikkat hai)
+Literal: There is a problem of constipation
+Meaning: Chronic constipation or hard stools.
+Cultural context: Very common in older adults; seen as a key health indicator in Indian households.
+Synonyms/variants: पेट साफ़ नहीं होता, मल रुक जाता है
+Disambiguation questions: कितने दिन से कब्ज है? | क्या दवा या हर्बल चूर्ण लेते हैं?",cultural_semantics,hi-en,Digestive / Bowel,mild_to_moderate,False
+CS211,"पेट साफ़ नहीं होता पूरा (pet saaf nahi hota poora)
+Literal: The stomach doesn’t get fully cleared
+Meaning: Incomplete evacuation, IBS, or constipation.
+Cultural context: Reflects the Indian obsession with ‘pet safai’ (clean stomach).
+Synonyms/variants: मल पूरा नहीं निकलता, थोड़ा सा रह जाता है
+Disambiguation questions: क्या हर रोज़ मल आता है? | क्या पानी या फाइबर कम लेते हैं?",cultural_semantics,hi-en,Digestive / Bowel,mild,False
+CS212,"मल सख्त निकलता है (mal sakht nikalta hai)
+Literal: The stool comes out hard
+Meaning: Constipation with hard stools or dehydration.
+Cultural context: Common lay term for straining during bowel movement.
+Synonyms/variants: मल सूखा है, जोर लगाना पड़ता है
+Disambiguation questions: क्या दर्द होता है? | क्या खून आता है?",cultural_semantics,hi-en,Digestive / Bowel,mild_to_moderate,False
+CS213,"बवासीर की तकलीफ़ है (bawasir ki takleef hai)
+Literal: Suffering from piles
+Meaning: Hemorrhoids with pain, bleeding, or swelling.
+Cultural context: Culturally sensitive but openly discussed among older adults.
+Synonyms/variants: पाइल्स, मलद्वार में सूजन
+Disambiguation questions: क्या खून आता है? | क्या दर्द या खुजली है?",cultural_semantics,hi-en,Digestive / Anorectal,moderate,True
+CS214,"लीवर गर्म हो गया है (liver garam ho gaya hai)
+Literal: The liver has become hot
+Meaning: Ayurvedic-style idiom for indigestion or pitta aggravation; not literal liver disease.
+Cultural context: Folk medicine term indicating internal heat or excess acidity.
+Synonyms/variants: अंदर गर्मी है, पित्त बढ़ा हुआ है
+Disambiguation questions: क्या आंखें पीली हैं? | क्या भूख कम लगी है?",cultural_semantics,hi-en,Digestive / Traditional,mild,False
+CS215,"मुँह कड़वा लग रहा है (munh kadwa lag raha hai)
+Literal: The mouth feels bitter
+Meaning: Bitter taste due to liver issues, acidity, or infection.
+Cultural context: Common complaint for digestive sluggishness or bile imbalance.
+Synonyms/variants: स्वाद चला गया, कड़वापन
+Disambiguation questions: क्या भूख कम है? | क्या खट्टी डकारें हैं?",cultural_semantics,hi-en,Digestive / General,mild,False
+CS216,"खाने के बाद पेट निकल आता है (khane ke baad pet nikal aata hai)
+Literal: The stomach comes out after eating
+Meaning: Post-meal bloating or distension.
+Cultural context: Playful yet descriptive; common phrasing for visible bloating.
+Synonyms/variants: पेट फूल जाता है, भरा-भरा लगता है
+Disambiguation questions: क्या डकार से राहत मिलती है? | क्या पेट दर्द भी होता है?",cultural_semantics,hi-en,Digestive / Bloating,mild,False
+CS217,"हर समय गैस बनती रहती है (har samay gas banti rehti hai)
+Literal: Gas keeps forming all the time
+Meaning: Chronic bloating or dyspepsia, often due to diet or stress.
+Cultural context: Common middle-aged complaint; attributed to irregular meals.
+Synonyms/variants: लगातार गैस, पेट में फुलाव
+Disambiguation questions: क्या खाने के बाद बढ़ती है? | क्या वजन घटा है?",cultural_semantics,hi-en,Digestive / Chronic Bloating,mild_to_moderate,False
+CS218,"खाना पचता नहीं है (khana pachata nahi hai)
+Literal: Food doesn’t get digested
+Meaning: Functional dyspepsia or indigestion.
+Cultural context: Highly common phrase in Indian homes for slow digestion.
+Synonyms/variants: अपच, भूख नहीं लगना
+Disambiguation questions: क्या हर बार खाना खाने पर होता है? | क्या गैस या जलन भी होती है?",cultural_semantics,hi-en,Digestive / Chronic,mild_to_moderate,False
+CS219,"पेट में ठंड लग गई है (pet mein thand lag gayi hai)
+Literal: Cold has entered the stomach
+Meaning: Cultural belief indicating diarrhea or chills due to cold exposure or food.
+Cultural context: Commonly used by elders for loose stools after cold water or weather.
+Synonyms/variants: ठंडी चीज़ खा ली, पेट ठंडा हो गया
+Disambiguation questions: क्या दस्त भी हैं? | क्या ठंडी चीज़ें खाई थीं?",cultural_semantics,hi-en,Digestive / Folk Belief,mild_to_moderate,False
