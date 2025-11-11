@@ -1,26 +1,9 @@
-# --- Core Framework ---
-#streamlit>=1.36.0
-python-dotenv>=1.0.0
-
-# --- OpenAI + LLM ---
-openai>=1.40.0
-
-# --- Vector Database (RAG) ---
-pinecone-client>=3.1.0
-
-# --- NLP and Translation Utilities ---
-langdetect>=1.0.9
-spacy>=3.7.2
-# include small English model to avoid runtime download
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-
-# --- Database / Persistence ---
-sqlite-utils>=3.36.0
-
-# --- Data handling / Visualization ---
-pandas>=2.2.0
-matplotlib>=3.9.0
-
-# --- Misc Utilities ---
-requests>=2.31.0
-tqdm>=4.66.0
+streamlit==1.39.0
+openai==1.51.2
+pinecone-client==4.1.1
+spacy==3.7.2
+blis==0.7.10
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+langdetect==1.0.9
+python-dotenv==1.0.1
+sqlite3-binary
